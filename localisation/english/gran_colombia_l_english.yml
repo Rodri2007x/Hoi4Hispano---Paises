@@ -1,0 +1,690 @@
+﻿l_english:
+
+ COL_trait_air_chief_air_superiority:0 "Air Doctrine Reformer"
+ COL_trait_air_chief_air_superiority_desc:0 "Focuses the air force on winning the skies through improved tactics and training."
+ COL_trait_high_command_armor:0 "Armored Warfare Advocate"
+ COL_trait_high_command_armor_desc:0 "Improves the combat performance and mobility of armored formations."
+ COL_trait_theorist_modern:0 "General Staff Theorist"
+ COL_trait_theorist_modern_desc:0 "Streamlines staff work and reduces the cost of adopting new doctrines."
+
+ resistencia_peruana_category:0 "Resistencia Peruana"
+ resistencia_peruana_category_desc:0 "Acciones para pacificar e integrar Loreto."
+
+ hoi4hispano_resistencia_peruana_mission:0 "Resistencia en Loreto"
+ hoi4hispano_resistencia_peruana_mission_desc:0 "La resistencia local está desestabilizando la región y saboteando el desarrollo."
+
+ operacion_pacificacion:0 "Operación de Pacificación"
+ operacion_pacificacion_desc:0 "Reducir la resistencia mediante operaciones militares en Loreto."
+
+ propaganda_integracion:0 "Propaganda de Integración"
+ propaganda_integracion_desc:0 "Mejorar el apoyo a la integración de Loreto mediante campañas políticas."
+
+ desarrollo_infraestructura:0 "Desarrollo de Infraestructura"
+ desarrollo_infraestructura_desc:0 "Invertir en infraestructura para acelerar la integración y el control local."
+
+ negociacion_lideres_locales:0 "Negociación con Líderes Locales"
+ negociacion_lideres_locales_desc:0 "Negociar con líderes locales para reducir la resistencia y aumentar la cooperación."
+
+ amnistia_guerrilleros:0 "Amnistía a Guerrilleros"
+ amnistia_guerrilleros_desc:0 "Ofrecer amnistía a cambio de desmovilización y cooperación."
+
+ hoi4hispano_resistencia_peruana:0 "Resistencia Peruana"
+ hoi4hispano_resistencia_peruana_desc:0 "La resistencia local dificulta el control y reduce el potencial económico de la región."
+
+ resistencia_peru.1.t:0 "Operación de Pacificación"
+ resistencia_peru.1.d:0 "Las operaciones militares han reducido temporalmente la resistencia activa en Loreto."
+ resistencia_peru.1.a:0 "Continuar"
+
+ resistencia_peru.2.t:0 "Propaganda de Integración"
+ resistencia_peru.2.d:0 "La propaganda está mejorando la aceptación local del nuevo gobierno."
+ resistencia_peru.2.a:0 "Continuar"
+
+ resistencia_peru.3.t:0 "Desarrollo de Infraestructura"
+ resistencia_peru.3.d:0 "Las nuevas inversiones en infraestructura están ayudando a consolidar el control."
+ resistencia_peru.3.a:0 "Continuar"
+
+ resistencia_peru.4.t:0 "Negociación con Líderes Locales"
+ resistencia_peru.4.d:0 "Los acuerdos con líderes locales han reducido tensiones y mejorado la cooperación."
+ resistencia_peru.4.a:0 "Continuar"
+
+ gran_colombia.1.t:0 "Acuerdo Alcanzado"
+ gran_colombia.1.d:0 "Se ha logrado un acuerdo beneficioso para Gran Colombia."
+ gran_colombia.1.a:0 "Perfecto"
+
+ gran_colombia.101.t:0 "Loreto Integrado"
+ gran_colombia.101.d:0 "Loreto ha sido integrado a la administración de Gran Colombia. Ahora podemos desarrollar la región y asegurar el control sobre la Amazonía."
+ gran_colombia.101.a:0 "Excelente"
+
+ # ==========================================
+ # PAIS
+ # ==========================================
+
+ COL:0 "Gran Colombia"
+ COL_DEF:0 "Gran Colombia"
+ COL_ADJ:0 "Grancolombiano"
+ COL_fascism:0 "Estado Nacional de Colombia"
+ COL_fascism_DEF:0 "Estado Nacional de Colombia"
+ COL_democratic:0 "República de Gran Colombia"
+ COL_democratic_DEF:0 "República de Gran Colombia"
+ COL_communism:0 "República Popular de Colombia"
+ COL_communism_DEF:0 "República Popular de Colombia"
+ COL_neutrality:0 "Gran Colombia"
+ COL_neutrality_DEF:0 "Gran Colombia"
+
+ # ==========================================
+ # FOCOS - INDUSTRIA
+ # ==========================================
+
+ COL_industria_nacional:0 "Industria Nacional"
+ COL_industria_nacional_desc:0 "Debemos desarrollar una base industrial sólida para nuestra nación."
+ 
+ COL_expandir_fabricas:0 "Expandir Fábricas"
+ COL_expandir_fabricas_desc:0 "Más fábricas civiles para fortalecer nuestra economía."
+ 
+ COL_infraestructura_nacional:0 "Infraestructura Nacional"
+ COL_infraestructura_nacional_desc:0 "Carreteras y ferrocarriles conectarán nuestra gran nación."
+ 
+ COL_industria_militar:0 "Industria Militar"
+ COL_industria_militar_desc:0 "Fábricas de armamento para defender la patria."
+
+ COL_eficiencia_produccion_idea:0 "Eficiencia de Producción"
+ COL_eficiencia_produccion_idea_desc:0 "Optimización de líneas y métodos para elevar la eficiencia industrial."
+ 
+ COL_recursos_estrategicos:0 "Recursos Estratégicos"
+ COL_recursos_estrategicos_desc:0 "Explotar nuestros recursos naturales."
+ 
+ COL_autarquia_economica:0 "Autarquía Económica"
+ COL_autarquia_economica_desc:0 "Gran Colombia debe ser autosuficiente y no depender del comercio exterior."
+ 
+ COL_comercio_internacional:0 "Comercio Internacional"
+ COL_comercio_internacional_desc:0 "Abrir nuestras fronteras al comercio global traerá prosperidad."
+ 
+ COL_refinamiento_petroleo:0 "Refinamiento de Petróleo"
+ COL_refinamiento_petroleo_desc:0 "Refinerías para nuestro valioso petróleo."
+ 
+ COL_acero_nacional:0 "Acero Nacional"
+ COL_acero_nacional_desc:0 "Producción de acero para la industria de guerra."
+ 
+ COL_industria_pesada:0 "Industria Pesada"
+ COL_industria_pesada_desc:0 "Desarrollar una base industrial pesada para la autosuficiencia."
+ 
+ COL_minas_carbon_autarquia:0 "Minas de Carbón Estatales"
+ COL_minas_carbon_autarquia_desc:0 "Nacionalizar las minas de carbón para asegurar recursos para la industria."
+ 
+ COL_fundiciones_nacionales:0 "Fundiciones Nacionales"
+ COL_fundiciones_nacionales_desc:0 "Construir grandes fundiciones bajo control estatal."
+ 
+ COL_produccion_combustible:0 "Producción de Combustible"
+ COL_produccion_combustible_desc:0 "Asegurar el suministro de combustible para nuestras fuerzas armadas."
+ 
+ COL_electrificacion_estatal:0 "Electrificación Estatal"
+ COL_electrificacion_estatal_desc:0 "El estado controlará la red eléctrica nacional."
+ 
+ COL_arsenales_estado:0 "Arsenales del Estado"
+ COL_arsenales_estado_desc:0 "Grandes arsenales para producir armamento nacional."
+ 
+ COL_plan_quinquenal:0 "Plan Quinquenal"
+ COL_plan_quinquenal_desc:0 "Un ambicioso plan de desarrollo industrial bajo control estatal."
+ 
+ COL_autosuficiencia_total:0 "Autosuficiencia Total"
+ COL_autosuficiencia_total_desc:0 "Gran Colombia no necesita al mundo exterior."
+ 
+ COL_acuerdos_comerciales:0 "Acuerdos Comerciales"
+ COL_acuerdos_comerciales_desc:0 "Establecer tratados de libre comercio con naciones amigas."
+ 
+ COL_inversiones_extranjeras:0 "Inversiones Extranjeras"
+ COL_inversiones_extranjeras_desc:0 "Atraer capital extranjero para modernizar nuestra industria."
+ 
+ COL_importar_carbon:0 "Importar Carbón y Acero"
+ COL_importar_carbon_desc:0 "Acuerdos comerciales para importar materias primas."
+ 
+ COL_bancos_internacionales:0 "Bancos Internacionales"
+ COL_bancos_internacionales_desc:0 "Atraer bancos internacionales para financiar el desarrollo."
+ 
+ COL_economia_global:0 "Economía Global"
+ COL_economia_global_desc:0 "Integrarnos en la economía mundial."
+ 
+ COL_tecnologia_importada:0 "Tecnología Importada"
+ COL_tecnologia_importada_desc:0 "Comprar licencias tecnológicas del extranjero."
+ 
+ COL_empresas_multinacionales:0 "Empresas Multinacionales"
+ COL_empresas_multinacionales_desc:0 "Permitir que empresas extranjeras operen en nuestro territorio."
+ 
+ COL_zona_libre_comercio:0 "Zona de Libre Comercio"
+ COL_zona_libre_comercio_desc:0 "Crear zonas francas en nuestros puertos."
+ 
+ COL_hub_comercial_americas:0 "Hub Comercial de las Américas"
+ COL_hub_comercial_americas_desc:0 "Convertir a Gran Colombia en el centro comercial del continente."
+ 
+ COL_prosperidad_comercial:0 "Prosperidad Comercial"
+ COL_prosperidad_comercial_desc:0 "El comercio trae riqueza a nuestra nación."
+
+ # --- FOCOS OPCIONALES AUTARQUIA ---
+ 
+ COL_reforma_industrial:0 "Reforma Industrial"
+ COL_reforma_industrial_desc:0 "Comenzar la modernización de nuestra industria atrasada."
+ 
+ COL_tecnificacion_fabricas:0 "Tecnificación de Fábricas"
+ COL_tecnificacion_fabricas_desc:0 "Introducir maquinaria moderna en nuestras fábricas."
+ 
+ COL_mecanizacion_total:0 "Mecanización Total"
+ COL_mecanizacion_total_desc:0 "Automatizar los procesos de producción industrial."
+ 
+ COL_gigante_industrial:0 "Gigante Industrial"
+ COL_gigante_industrial_desc:0 "Gran Colombia se convierte en una potencia industrial."
+
+ COL_eficiencia_estatal:0 "Eficiencia Estatal"
+ COL_eficiencia_estatal_desc:0 "Optimizar la gestión pública para elevar el rendimiento general."
+
+ # --- FOCOS OPCIONALES COMERCIO ---
+ 
+ COL_asesores_extranjeros:0 "Asesores Extranjeros"
+ COL_asesores_extranjeros_desc:0 "Contratar expertos internacionales para modernizar nuestra industria."
+ 
+ COL_metodos_modernos:0 "Métodos Modernos"
+ COL_metodos_modernos_desc:0 "Adoptar las últimas técnicas de producción del mundo desarrollado."
+ 
+ COL_innovacion_industrial:0 "Innovación Industrial"
+ COL_innovacion_industrial_desc:0 "Fomentar la innovación en nuestras fábricas."
+ 
+ COL_lider_economico_americas:0 "Líder Económico de las Américas"
+ COL_lider_economico_americas_desc:0 "Gran Colombia se posiciona como la potencia económica del continente."
+
+ COL_gestion_financiera:0 "Gestión Financiera"
+ COL_gestion_financiera_desc:0 "Profesionalizar la administración económica para sostener el crecimiento y la innovación."
+
+ # --- IDEAS INDUSTRIA ---
+ 
+ COL_industria_subdesarrollada:0 "Industria Subdesarrollada"
+ COL_industria_subdesarrollada_desc:0 "Nuestra industria está atrasada y necesita modernización urgente."
+ 
+ COL_industria_en_desarrollo:0 "Industria en Desarrollo"
+ COL_industria_en_desarrollo_desc:0 "Los primeros pasos hacia la modernización industrial."
+ 
+ COL_industria_modernizada:0 "Industria Modernizada"
+ COL_industria_modernizada_desc:0 "Nuestra industria comienza a alcanzar estándares internacionales."
+ 
+ COL_industria_avanzada:0 "Industria Avanzada"
+ COL_industria_avanzada_desc:0 "Una base industrial sólida y eficiente."
+ 
+ COL_potencia_industrial:0 "Potencia Industrial"
+ COL_potencia_industrial_desc:0 "Gran Colombia es ahora un gigante industrial."
+
+ COL_eficiencia_estatal_idea:0 "Eficiencia Estatal"
+ COL_eficiencia_estatal_idea_desc:0 "Procesos y gestión mejorados para elevar el rendimiento general."
+
+ COL_gestion_financiera_idea:0 "Gestión Financiera"
+ COL_gestion_financiera_idea_desc:0 "Planificación económica sólida para mantener crecimiento e investigación."
+
+ COL_administracion_publica_idea:0 "Administración Pública"
+ COL_administracion_publica_idea_desc:0 "Instituciones reforzadas para garantizar estabilidad y gobernabilidad."
+
+ # ==========================================
+ # FOCOS - EJERCITO
+ # ==========================================
+
+ COL_reorganizar_ejercito:0 "Reorganizar el Ejército"
+ COL_reorganizar_ejercito_desc:0 "Modernizar la estructura de nuestras fuerzas armadas."
+ 
+ COL_academias_militares:0 "Academias Militares"
+ COL_academias_militares_desc:0 "Formar oficiales competentes para liderar nuestras tropas."
+ 
+ COL_doctrina_militar:0 "Doctrina Militar"
+ COL_doctrina_militar_desc:0 "Desarrollar una doctrina adaptada a nuestro terreno."
+ 
+ COL_equipamiento_moderno:0 "Equipamiento Moderno"
+ COL_equipamiento_moderno_desc:0 "Armas modernas para nuestros soldados."
+ 
+ COL_fuerzas_especiales:0 "Fuerzas Especiales"
+ COL_fuerzas_especiales_desc:0 "Unidades de élite para misiones especiales."
+ 
+ COL_artilleria_pesada:0 "Artillería Pesada"
+ COL_artilleria_pesada_desc:0 "Cañones poderosos para destruir fortificaciones enemigas."
+ 
+ COL_blindados:0 "Blindados"
+ COL_blindados_desc:0 "Tanques para aplastar al enemigo."
+ 
+ COL_ejercito_profesional:0 "Ejército Profesional"
+ COL_ejercito_profesional_desc:0 "Un ejército bien entrenado y disciplinado."
+ 
+ COL_guerra_selva:0 "Guerra de Selva"
+ COL_guerra_selva_desc:0 "Dominar el combate en la jungla amazónica."
+ 
+ COL_guerra_montana:0 "Guerra de Montaña"
+ COL_guerra_montana_desc:0 "Maestros del combate en los Andes."
+ 
+ COL_logistica_andina:0 "Logística Andina"
+ COL_logistica_andina_desc:0 "Suministrar tropas en terreno difícil."
+
+ # --- FOCOS OPCIONALES EJERCITO ---
+
+ COL_reorganizar_mandos:0 "Reorganizar Mandos"
+ COL_reorganizar_mandos_desc:0 "Optimizar la cadena de mando y la coordinación del ejército."
+
+ COL_entrenamiento_intensivo:0 "Entrenamiento Intensivo"
+ COL_entrenamiento_intensivo_desc:0 "Mejorar la preparación de nuestras tropas con maniobras constantes."
+
+ COL_tacticas_modernas:0 "Tácticas Modernas"
+ COL_tacticas_modernas_desc:0 "Adoptar doctrinas y tácticas contemporáneas para el campo de batalla."
+
+ COL_ejercito_bolivariano:0 "Ejército Bolivariano"
+ COL_ejercito_bolivariano_desc:0 "Forjar un ejército de élite digno de la Gran Colombia."
+
+ # ==========================================
+ # FOCOS - MARINA
+ # ==========================================
+
+ COL_astilleros_caribe:0 "Astilleros del Caribe"
+ COL_astilleros_caribe_desc:0 "Construir una flota para dominar el Caribe."
+ 
+ COL_flota_caribe:0 "Flota del Caribe"
+ COL_flota_caribe_desc:0 "Destructores para proteger nuestras costas."
+ 
+ COL_submarinos:0 "Submarinos"
+ COL_submarinos_desc:0 "Submarinos para atacar el comercio enemigo."
+ 
+ COL_dominio_caribe:0 "Dominio del Caribe"
+ COL_dominio_caribe_desc:0 "El Caribe será nuestro mar interior."
+ 
+ COL_flota_pacifico:0 "Flota del Pacífico"
+ COL_flota_pacifico_desc:0 "Expandir nuestra presencia al Océano Pacífico."
+ 
+ COL_aviacion_naval:0 "Aviación Naval"
+ COL_aviacion_naval_desc:0 "Aviones torpederos para apoyar a nuestra armada."
+ 
+ COL_defensa_costera:0 "Defensa Costera"
+ COL_defensa_costera_desc:0 "Fortalecer nuestras costas contra invasiones."
+
+ COL_infanteria_marina:0 "Infantería de Marina"
+ COL_infanteria_marina_desc:0 "Formar unidades anfibias capaces de operar desde la costa."
+
+ COL_comandos_anfibios:0 "Comandos Anfibios"
+ COL_comandos_anfibios_desc:0 "Entrenamiento de élite para asaltos y golpes de mano desde el mar."
+
+ COL_doctrina_asalto_anfibio:0 "Doctrina de Asalto Anfibio"
+ COL_doctrina_asalto_anfibio_desc:0 "Perfeccionar la coordinación entre armada y fuerzas especiales."
+
+ COL_fuerzas_especiales_caribe:0 "Fuerzas Especiales del Caribe"
+ COL_fuerzas_especiales_caribe_desc:0 "Comandos de costa listos para operaciones rápidas y decisivas."
+
+ COL_entrenamiento_integrado:0 "Entrenamiento Integrado"
+ COL_entrenamiento_integrado_desc:0 "Estandarizar doctrinas y formación para elevar el rendimiento de todas nuestras fuerzas."
+
+ COL_logistica_conjunta:0 "Logística Conjunta"
+ COL_logistica_conjunta_desc:0 "Mejorar suministros y coordinación para mantener el esfuerzo bélico en cualquier frente."
+
+ # --- FOCOS OPCIONALES MARINA ---
+
+ COL_escuela_naval:0 "Escuela Naval"
+ COL_escuela_naval_desc:0 "Profesionalizar nuestra armada con formación moderna."
+
+ COL_tradicion_marinera:0 "Tradición Marinera"
+ COL_tradicion_marinera_desc:0 "Crear una cultura naval que impulse el rendimiento de la flota."
+
+ COL_oficiales_navales:0 "Oficiales Navales"
+ COL_oficiales_navales_desc:0 "Promover un cuerpo de oficiales competente para dirigir la armada."
+
+ COL_armada_grancolombiana:0 "Armada Grancolombiana"
+ COL_armada_grancolombiana_desc:0 "Consolidar una armada respetada en el Caribe y el Pacífico."
+
+ # ==========================================
+ # FOCOS - FUERZA AEREA
+ # ==========================================
+
+ COL_fuerza_aerea:0 "Fuerza Aérea"
+ COL_fuerza_aerea_desc:0 "Crear una fuerza aérea moderna."
+ 
+ COL_cazas:0 "Cazas"
+ COL_cazas_desc:0 "Aviones de combate para defender nuestros cielos."
+ 
+ COL_bombarderos:0 "Bombarderos"
+ COL_bombarderos_desc:0 "Bombarderos para destruir la industria enemiga."
+ 
+ COL_superioridad_aerea:0 "Superioridad Aérea"
+ COL_superioridad_aerea_desc:0 "Dominar los cielos sobre el campo de batalla."
+ 
+ COL_apoyo_aereo_cercano:0 "Apoyo Aéreo Cercano"
+ COL_apoyo_aereo_cercano_desc:0 "Aviones de ataque para apoyar a nuestras tropas."
+ 
+ COL_bases_aereas:0 "Bases Aéreas"
+ COL_bases_aereas_desc:0 "Aeródromos en todo el territorio nacional."
+ 
+ COL_doctrina_aerea:0 "Doctrina Aérea"
+ COL_doctrina_aerea_desc:0 "Perfeccionar nuestra estrategia de guerra aérea."
+
+ # --- FOCOS OPCIONALES FUERZA AEREA ---
+
+ COL_pilotos_novatos:0 "Pilotos Novatos"
+ COL_pilotos_novatos_desc:0 "Aumentar el número de pilotos disponibles y mejorar su formación inicial."
+
+ COL_escuela_pilotos:0 "Escuela de Pilotos"
+ COL_escuela_pilotos_desc:0 "Estandarizar el entrenamiento avanzado para elevar el nivel de combate."
+
+ COL_ases_andinos:0 "Ases Andinos"
+ COL_ases_andinos_desc:0 "Promover tácticas de combate aéreo para crear pilotos de élite."
+
+ COL_condores_andes:0 "Cóndores de los Andes"
+ COL_condores_andes_desc:0 "Convertir nuestra fuerza aérea en un referente regional."
+
+ # ==========================================
+ # FOCOS - POLITICA
+ # ==========================================
+
+ COL_consolidar_gran_colombia:0 "Consolidar Gran Colombia"
+ COL_consolidar_gran_colombia_desc:0 "Unificar los territorios bajo un gobierno central fuerte."
+ 
+ COL_futuro_nacion:0 "El Futuro de la Nación"
+ COL_futuro_nacion_desc:0 "Es hora de decidir qué camino tomará Gran Colombia."
+
+ COL_administracion_publica:0 "Administración Pública"
+ COL_administracion_publica_desc:0 "Reformar el aparato estatal para mejorar estabilidad y capacidad de gobierno."
+
+ COL_servicio_inteligencia:0 "Servicio de Inteligencia"
+ COL_servicio_inteligencia_desc:0 "Crear una agencia capaz de reunir información y proteger al Estado."
+
+ COL_red_espias:0 "Red de Espías"
+ COL_red_espias_desc:0 "Expandir informantes y operaciones para obtener ventaja estratégica."
+
+ COL_criptografia_militar:0 "Criptografía Militar"
+ COL_criptografia_militar_desc:0 "Asegurar comunicaciones y romper códigos enemigos."
+
+ COL_inteligencia_nacional_idea:0 "Inteligencia Nacional"
+ COL_inteligencia_nacional_idea_desc:0 "Estructuras y protocolos para mejorar cifrado y descifrado."
+
+ # --- COMUNISMO ---
+ 
+ COL_vanguardia_proletaria:0 "Vanguardia Proletaria"
+ COL_vanguardia_proletaria_desc:0 "El proletariado debe liderar la revolución."
+ 
+ COL_comite_central:0 "Comité Central"
+ COL_comite_central_desc:0 "Un partido único guiará a la nación."
+ 
+ COL_dictadura_proletariado:0 "Dictadura del Proletariado"
+ COL_dictadura_proletariado_desc:0 "El poder para los trabajadores."
+ 
+ COL_colectivizacion_agraria:0 "Colectivización Agraria"
+ COL_colectivizacion_agraria_desc:0 "La tierra para quien la trabaja."
+ 
+ COL_industrializacion_forzada:0 "Industrialización Forzada"
+ COL_industrializacion_forzada_desc:0 "Construir el socialismo a través de la industria."
+ 
+ COL_unirse_comintern:0 "Unirse al Comintern"
+ COL_unirse_comintern_desc:0 "Unirse a la Internacional Comunista."
+ 
+ COL_revolucion_continental:0 "Revolución Continental"
+ COL_revolucion_continental_desc:0 "Exportar la revolución a toda América."
+
+ # --- DEMOCRACIA ---
+ 
+ COL_democracia_bolivariana:0 "Democracia Bolivariana"
+ COL_democracia_bolivariana_desc:0 "Seguir el legado de libertad de Bolívar."
+ 
+ COL_reformas_democraticas:0 "Reformas Democráticas"
+ COL_reformas_democraticas_desc:0 "Fortalecer las instituciones democráticas."
+ 
+ COL_libertad_prensa:0 "Libertad de Prensa"
+ COL_libertad_prensa_desc:0 "Una prensa libre para una sociedad informada."
+ 
+ COL_elecciones_libres:0 "Elecciones Libres"
+ COL_elecciones_libres_desc:0 "El pueblo decidirá su destino."
+ 
+ COL_acercarse_aliados:0 "Acercarse a los Aliados"
+ COL_acercarse_aliados_desc:0 "Buscar amistad con las democracias occidentales."
+ 
+ COL_unirse_aliados:0 "Unirse a los Aliados"
+ COL_unirse_aliados_desc:0 "Defender la libertad junto a nuestros aliados."
+ 
+ COL_defensa_hemisferica:0 "Defensa Hemisférica"
+ COL_defensa_hemisferica_desc:0 "Proteger el hemisferio occidental del fascismo."
+
+ # --- FASCISMO ---
+ 
+ COL_bolivar_eterno:0 "Bolívar Eterno"
+ COL_bolivar_eterno_desc:0 "Revivir el espíritu autoritario del Libertador."
+ 
+ COL_estado_corporativo:0 "Estado Corporativo"
+ COL_estado_corporativo_desc:0 "Un estado fuerte que organice la nación."
+ 
+ COL_movimiento_nacional:0 "Movimiento Nacional"
+ COL_movimiento_nacional_desc:0 "Un movimiento de masas para la nueva Gran Colombia."
+ 
+ COL_el_caudillo:0 "El Caudillo"
+ COL_el_caudillo_desc:0 "Un líder fuerte para tiempos difíciles."
+ 
+ COL_acercarse_eje:0 "Acercarse al Eje"
+ COL_acercarse_eje_desc:0 "Las potencias del Eje comparten nuestra visión."
+ 
+ COL_unirse_eje:0 "Unirse al Eje"
+ COL_unirse_eje_desc:0 "Formar parte del nuevo orden mundial."
+ 
+ COL_guerra_total:0 "Guerra Total"
+ COL_guerra_total_desc:0 "Movilizar toda la nación para la victoria final."
+
+ COL_reclamar_guyana:0 "Reclamar Guyana"
+ COL_reclamar_guyana_desc:0 "Guyana es clave para nuestro dominio regional. Presentaremos una demanda al Reino Unido."
+
+ COL_reclamar_panama:0 "Reclamar Panamá"
+ COL_reclamar_panama_desc:0 "Panamá debe volver a nuestra esfera. Exigiremos su sumisión por la vía diplomática o por la fuerza."
+
+ COL_core_galapagos:0 "Integrar las Galápagos"
+ COL_core_galapagos_desc:0 "Las islas Galápagos serán integradas plenamente en la nación."
+
+ # ==========================================
+ # FOCOS - LORETO
+ # ==========================================
+
+ COL_integrar_loreto:0 "Integrar Loreto"
+ COL_integrar_loreto_desc:0 "Loreto debe ser parte integral de Gran Colombia."
+ 
+ COL_infraestructura_loreto:0 "Infraestructura en Loreto"
+ COL_infraestructura_loreto_desc:0 "Carreteras y ferrocarriles hasta la Amazonía."
+ 
+ COL_colonizacion_amazonica:0 "Colonización Amazónica"
+ COL_colonizacion_amazonica_desc:0 "Poblar la región amazónica con colonos."
+ 
+ COL_minas_loreto:0 "Minas de Loreto"
+ COL_minas_loreto_desc:0 "Explotar los recursos minerales de la región."
+ 
+ COL_industria_loreto:0 "Industria en Loreto"
+ COL_industria_loreto_desc:0 "Desarrollar industria en la Amazonía."
+ 
+ COL_refineria_amazonica:0 "Refinería Amazónica"
+ COL_refineria_amazonica_desc:0 "Refinerías para el petróleo amazónico."
+ 
+ COL_base_amazonica:0 "Base Amazónica"
+ COL_base_amazonica_desc:0 "Una base aérea en el corazón de la selva."
+ 
+ COL_fortaleza_amazonica:0 "Fortaleza Amazónica"
+ COL_fortaleza_amazonica_desc:0 "Convertir Loreto en una fortaleza inexpugnable."
+
+ gran_colombia.200.t:0 "Gran Colombia exige Guyana"
+ gran_colombia.200.d:0 "Gran Colombia ha presentado una demanda formal para la cesión de Guyana. Aceptar evitaría una escalada, pero ceder territorio podría debilitar nuestra posición."
+ gran_colombia.200.a:0 "Aceptaremos la cesión"
+ gran_colombia.200.b:0 "¡Jamás!"
+
+ gran_colombia.201.t:0 "Gran Colombia exige la sumisión de Panamá"
+ gran_colombia.201.d:0 "Gran Colombia exige que aceptemos su tutela y nos convirtamos en su títere. Si rechazamos, la guerra parece inevitable."
+ gran_colombia.201.a:0 "No tenemos alternativa"
+ gran_colombia.201.b:0 "Resistiremos"
+
+ COL_reclamar_canal_panama_a_usa:0 "Reclamar el Canal de Panamá"
+ COL_reclamar_canal_panama_a_usa_desc:0 "Con Panamá bajo nuestro control, exigiremos a Estados Unidos que reconozca nuestra soberanía sobre el Canal."
+
+ gran_colombia.202.t:0 "Gran Colombia exige el Canal de Panamá"
+ gran_colombia.202.d:0 "Gran Colombia reclama el control del Canal de Panamá. Podemos ceder para evitar una guerra o rechazar sus pretensiones."
+ gran_colombia.202.a:0 "Cederemos"
+ gran_colombia.202.b:0 "Rechazar"
+
+ gran_colombia.203.t:0 "El Reino Unido rechaza nuestra demanda"
+ gran_colombia.203.d:0 "Londres ha rechazado nuestra reclamación sobre Guyana, alegando que no negociará bajo presión y que nuestras pretensiones son una amenaza al statu quo colonial. La diplomacia ha fracasado; si queremos Guyana, tendremos que tomarla por la fuerza."
+ gran_colombia.203.a:0 "Entonces habrá guerra"
+
+ gran_colombia.204.t:0 "Panamá se niega a someterse"
+ gran_colombia.204.d:0 "El gobierno panameño ha rechazado nuestro ultimátum, apelando a su soberanía y buscando apoyo internacional. Esta afrenta pone a prueba nuestra autoridad en la región. Si queremos asegurar Panamá, debemos imponer nuestra voluntad."
+ gran_colombia.204.a:0 "Preparad la intervención"
+
+ gran_colombia.205.t:0 "Estados Unidos rechaza nuestra demanda"
+ gran_colombia.205.d:0 "Washington ha rechazado reconocer nuestra soberanía sobre el Canal, declarando que se trata de un interés estratégico vital y que no aceptará ultimátums en el hemisferio. Si queremos el Canal, tendremos que arrebatárselo."
+ gran_colombia.205.a:0 "Que se preparen"
+
+ # ==========================================
+ # IDEAS
+ # ==========================================
+
+ COL_ejercito_profesional_idea:0 "Ejército Profesional"
+ COL_ejercito_profesional_idea_desc:0 "Nuestro ejército está formado por soldados profesionales bien entrenados."
+ 
+ COL_guerra_selva_idea:0 "Expertos en Selva"
+ COL_guerra_selva_idea_desc:0 "Nuestras tropas dominan el combate en la jungla."
+ 
+ COL_guerra_montana_idea:0 "Expertos en Montaña"
+ COL_guerra_montana_idea_desc:0 "Nuestras tropas dominan el combate en las montañas."
+ 
+ COL_logistica_andina_idea:0 "Logística Andina"
+ COL_logistica_andina_idea_desc:0 "Sistemas de suministro adaptados al terreno montañoso."
+ 
+ COL_colectivizacion_idea:0 "Colectivización"
+ COL_colectivizacion_idea_desc:0 "Las tierras han sido colectivizadas para el bien común."
+ 
+ COL_libertad_prensa_idea:0 "Libertad de Prensa"
+ COL_libertad_prensa_idea_desc:0 "Una prensa libre fortalece nuestra democracia."
+ 
+ COL_movimiento_nacional_idea:0 "Movimiento Nacional"
+ COL_movimiento_nacional_idea_desc:0 "Un movimiento de masas apoya al régimen."
+ 
+ COL_defensa_hemisferica_idea:0 "Defensa Hemisférica"
+ COL_defensa_hemisferica_idea_desc:0 "Comprometidos con la defensa del hemisferio occidental."
+ 
+ COL_guerra_total_idea:0 "Guerra Total"
+ COL_guerra_total_idea_desc:0 "Toda la nación está movilizada para la guerra."
+ 
+ COL_fortaleza_amazonica_idea:0 "Fortaleza Amazónica"
+ COL_fortaleza_amazonica_idea_desc:0 "Loreto es una fortaleza inexpugnable en la Amazonía."
+ 
+ COL_autosuficiencia_idea:0 "Autosuficiencia Industrial"
+ COL_autosuficiencia_idea_desc:0 "Nuestra industria no depende del exterior."
+ 
+ COL_prosperidad_idea:0 "Prosperidad Comercial"
+ COL_prosperidad_idea_desc:0 "El comercio internacional ha traído riqueza a nuestra nación."
+
+ COL_ejercito_elite:0 "Ejército de Élite"
+ COL_ejercito_elite_desc:0 "Una fuerza altamente entrenada y motivada, preparada para operaciones decisivas."
+
+ COL_marina_caribe:0 "Marina del Caribe"
+ COL_marina_caribe_desc:0 "Doctrina y medios para dominar el Caribe y proteger nuestras rutas marítimas."
+
+ COL_aviacion_dominante:0 "Aviación Dominante"
+ COL_aviacion_dominante_desc:0 "Superioridad aérea basada en doctrina, entrenamiento y capacidad industrial."
+
+ COL_marina_competente:0 "Marina Competente"
+ COL_marina_competente_desc:0 "Una armada profesional capaz de operar de forma eficiente."
+
+ COL_operaciones_anfibias_idea:0 "Planificación Anfibia"
+ COL_operaciones_anfibias_idea_desc:0 "Capacidad mejorada para planificar y ejecutar desembarcos navales."
+
+ COL_fuerzas_especiales_navales_idea:0 "Estado Mayor Conjunto"
+ COL_fuerzas_especiales_navales_idea_desc:0 "Coordinación superior para operaciones complejas y sostenidas."
+
+ COL_comandos_costas_idea:0 "Fuerza de Reacción Rápida"
+ COL_comandos_costas_idea_desc:0 "Movilización y despliegue acelerados ante crisis estratégicas."
+
+ COL_entrenamiento_integrado_idea:0 "Entrenamiento Integrado"
+ COL_entrenamiento_integrado_idea_desc:0 "Estandarización de formación y mando para elevar el rendimiento global."
+
+ COL_logistica_conjunta_idea:0 "Logística Conjunta"
+ COL_logistica_conjunta_idea_desc:0 "Suministros y coordinación mejorados para sostener operaciones prolongadas."
+
+ COL_chief_of_army:0 "Jefe del Ejército"
+ COL_chief_of_army_desc:0 "Alto mando responsable de doctrina y dirección del ejército."
+
+ COL_chief_of_navy:0 "Jefe de la Armada"
+ COL_chief_of_navy_desc:0 "Alto mando responsable de doctrina y dirección naval."
+
+ COL_chief_of_air_force:0 "Jefe de la Fuerza Aérea"
+ COL_chief_of_air_force_desc:0 "Alto mando responsable de doctrina y dirección aérea."
+
+ COL_mhc_infantry:0 "Alto Mando: Infantería"
+ COL_mhc_infantry_desc:0 "Asesor especializado en operaciones de infantería."
+
+ COL_mhc_artillery:0 "Alto Mando: Artillería"
+ COL_mhc_artillery_desc:0 "Asesor especializado en apoyo de artillería."
+
+ COL_mhc_armor:0 "Alto Mando: Blindados"
+ COL_mhc_armor_desc:0 "Asesor especializado en guerra acorazada."
+
+ COL_mhc_logistics:0 "Alto Mando: Logística"
+ COL_mhc_logistics_desc:0 "Asesor especializado en suministros y organización."
+
+ COL_mhc_air_superiority:0 "Alto Mando: Superioridad Aérea"
+ COL_mhc_air_superiority_desc:0 "Asesor especializado en dominio del aire."
+
+ COL_mhc_anti_sub:0 "Alto Mando: Antisubmarinos"
+ COL_mhc_anti_sub_desc:0 "Asesor especializado en guerra antisubmarina."
+
+ COL_theorist:0 "Teórico Militar"
+ COL_theorist_desc:0 "Impulsa el desarrollo doctrinal de las fuerzas armadas."
+
+ COL_advisor_silent_workhorse:0 "Burócrata Eficiente"
+ COL_advisor_silent_workhorse_desc:0 "Un operador discreto que mantiene funcionando el Estado."
+
+ COL_advisor_captain_of_industry:0 "Capitán de la Industria"
+ COL_advisor_captain_of_industry_desc:0 "Experto en producción y expansión industrial."
+
+ COL_advisor_war_industrialist:0 "Industrial de Guerra"
+ COL_advisor_war_industrialist_desc:0 "Orientación total a la producción militar."
+
+ COL_advisor_popular_figurehead:0 "Figura Popular"
+ COL_advisor_popular_figurehead_desc:0 "Refuerza la legitimidad y cohesión nacional."
+
+ COL_advisor_prince_of_terror:0 "Príncipe del Terror"
+ COL_advisor_prince_of_terror_desc:0 "Control férreo del aparato de seguridad del Estado."
+
+ COL_advisor_backroom_backstabber:0 "Intrigante de Palacio"
+ COL_advisor_backroom_backstabber_desc:0 "Maniobras políticas para imponer la agenda del gobierno."
+
+ COL_advisor_ideological_crusader:0 "Cruzado Ideológico"
+ COL_advisor_ideological_crusader_desc:0 "Impulsa con fuerza la línea ideológica del régimen."
+
+ COL_aviacion_moderna:0 "Aviación Moderna"
+ COL_aviacion_moderna_desc:0 "Aviones y doctrina suficientes para competir en el aire."
+
+ COL_gobierno_fuerte:0 "Gobierno Fuerte"
+ COL_gobierno_fuerte_desc:0 "Instituciones estables y una administración eficaz refuerzan a la nación."
+
+ # ==========================================
+ # MODIFIERS
+ # ==========================================
+
+ COL_acercamiento:0 "Acercamiento Diplomático"
+
+ # ==========================================
+ # DECISIONES LORETO
+ # ==========================================
+
+ category_COL_loreto:0 "Integración de Loreto"
+ 
+ COL_suprimir_resistencia_loreto:0 "Suprimir Resistencia en Loreto"
+ COL_suprimir_resistencia_loreto_desc:0 "Enviar tropas para pacificar la región."
+ 
+ COL_campana_propaganda_loreto:0 "Campaña de Propaganda en Loreto"
+ COL_campana_propaganda_loreto_desc:0 "Convencer a la población local de los beneficios de la unión."
+ 
+ COL_inversion_loreto:0 "Inversión en Loreto"
+ COL_inversion_loreto_desc:0 "Desarrollar la economía local para ganar apoyo."
+
+ # ==========================================
+ # EVENTOS LORETO
+ # ==========================================
+
+ col_loreto.1.t:0 "Resistencia en Loreto"
+ col_loreto.1.d:0 "La población de Loreto no acepta la anexión. Grupos de resistencia se han formado en la selva."
+ col_loreto.1.a:0 "Enviaremos tropas"
+ col_loreto.1.b:0 "Intentaremos la diplomacia"
+ 
+ col_loreto.2.t:0 "Loreto Pacificado"
+ col_loreto.2.d:0 "La resistencia ha sido sofocada. Loreto ahora es parte integral de Gran Colombia."
+ col_loreto.2.a:0 "Excelente"
+ 
+ col_loreto.3.t:0 "Desarrollo en Loreto"
+ col_loreto.3.d:0 "Las inversiones en infraestructura están dando frutos. La población local comienza a aceptar el gobierno de Gran Colombia."
+ col_loreto.3.a:0 "El progreso llega a la Amazonía"

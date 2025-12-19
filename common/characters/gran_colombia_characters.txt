@@ -1,0 +1,230 @@
+characters = {
+	COL_chief_of_army = {
+		name = COL_chief_of_army
+		advisor = {
+			slot = army_chief
+			idea_token = COL_adv_chief_of_army
+			cost = 150
+			traits = { army_chief_offensive_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_chief_of_navy = {
+		name = COL_chief_of_navy
+		advisor = {
+			slot = navy_chief
+			idea_token = COL_adv_chief_of_navy
+			cost = 150
+			traits = { navy_chief_decisive_battle_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_chief_of_air_force = {
+		name = COL_chief_of_air_force
+		advisor = {
+			slot = air_chief
+			idea_token = COL_adv_chief_of_air_force
+			cost = 150
+			traits = { COL_trait_air_chief_air_superiority }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_mhc_infantry = {
+		name = COL_mhc_infantry
+		advisor = {
+			slot = high_command
+			idea_token = COL_adv_mhc_infantry
+			ledger = army
+			cost = 150
+			traits = { army_infantry_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_mhc_artillery = {
+		name = COL_mhc_artillery
+		advisor = {
+			slot = high_command
+			idea_token = COL_adv_mhc_artillery
+			ledger = army
+			cost = 150
+			traits = { army_artillery_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_mhc_armor = {
+		name = COL_mhc_armor
+		advisor = {
+			slot = high_command
+			idea_token = COL_adv_mhc_armor
+			ledger = army
+			cost = 150
+			traits = { COL_trait_high_command_armor }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_mhc_logistics = {
+		name = COL_mhc_logistics
+		advisor = {
+			slot = high_command
+			idea_token = COL_adv_mhc_logistics
+			ledger = army
+			cost = 150
+			traits = { army_logistics_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_mhc_air_superiority = {
+		name = COL_mhc_air_superiority
+		advisor = {
+			slot = high_command
+			idea_token = COL_adv_mhc_air_superiority
+			ledger = air
+			cost = 150
+			traits = { air_air_superiority_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_mhc_anti_sub = {
+		name = COL_mhc_anti_sub
+		advisor = {
+			slot = high_command
+			idea_token = COL_adv_mhc_anti_sub
+			ledger = navy
+			cost = 150
+			traits = { navy_anti_submarine_1 }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_theorist = {
+		name = COL_theorist
+		advisor = {
+			slot = theorist
+			idea_token = COL_adv_theorist
+			ledger = army
+			cost = 150
+			traits = { COL_trait_theorist_modern }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_silent_workhorse = {
+		name = COL_advisor_silent_workhorse
+		portraits = {
+			civilian = {
+				small = "GFX_idea_silent_workhorse"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_silent_workhorse
+			cost = 150
+			traits = { silent_workhorse }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_captain_of_industry = {
+		name = COL_advisor_captain_of_industry
+		portraits = {
+			civilian = {
+				small = "GFX_idea_captain_of_industry"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_captain_of_industry
+			cost = 150
+			traits = { captain_of_industry }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_war_industrialist = {
+		name = COL_advisor_war_industrialist
+		portraits = {
+			civilian = {
+				small = "GFX_idea_war_industrialist"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_war_industrialist
+			cost = 150
+			traits = { war_industrialist }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_popular_figurehead = {
+		name = COL_advisor_popular_figurehead
+		portraits = {
+			civilian = {
+				small = "GFX_idea_popular_figurehead"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_popular_figurehead
+			cost = 150
+			traits = { popular_figurehead }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_prince_of_terror = {
+		name = COL_advisor_prince_of_terror
+		portraits = {
+			civilian = {
+				small = "GFX_idea_prince_of_terror"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_prince_of_terror
+			cost = 150
+			traits = { prince_of_terror }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_backroom_backstabber = {
+		name = COL_advisor_backroom_backstabber
+		portraits = {
+			civilian = {
+				small = "GFX_idea_backroom_backstabber"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_backroom_backstabber
+			cost = 150
+			traits = { backroom_backstabber }
+			available = { original_tag = COL }
+		}
+	}
+
+	COL_advisor_ideological_crusader = {
+		name = COL_advisor_ideological_crusader
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ideological_crusader"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = COL_adv_ideological_crusader
+			cost = 150
+			traits = { ideological_crusader }
+			available = { original_tag = COL }
+		}
+	}
+}

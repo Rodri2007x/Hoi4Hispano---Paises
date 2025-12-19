@@ -1,0 +1,12 @@
+resistencia_peruana_category = {
+	icon = generic_crisis
+
+	priority = 50
+
+	visible = {
+		original_tag = COL
+		owns_state = 491
+		NOT = { 491 = { is_core_of = ROOT } }
+	}
+}
+

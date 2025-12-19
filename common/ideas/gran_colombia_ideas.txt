@@ -1,0 +1,521 @@
+ideas = {
+	country = {
+		COL_industria_subdesarrollada = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = 0.05
+				research_speed_factor = -0.05
+			}
+		}
+
+		COL_industria_en_desarrollo = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		COL_industria_modernizada = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = 0.00
+			}
+		}
+
+		COL_industria_avanzada = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		COL_potencia_industrial = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.03
+				research_speed_factor = 0.05
+			}
+		}
+
+		COL_eficiencia_produccion_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_efficiency_gain_factor = 0.10
+				production_efficiency_cap_factor = 0.10
+			}
+		}
+
+		COL_inteligencia_nacional_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				encryption_factor = 0.10
+				decryption_factor = 0.10
+			}
+		}
+
+		COL_eficiencia_estatal_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+
+		COL_gestion_financiera_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				research_speed_factor = 0.03
+				production_speed_buildings_factor = 0.03
+			}
+		}
+
+		COL_administracion_publica_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.10
+			}
+		}
+
+		COL_autosuficiencia_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+
+		COL_prosperidad_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				research_speed_factor = 0.03
+				production_speed_buildings_factor = 0.03
+				stability_factor = 0.03
+			}
+		}
+
+		COL_colectivizacion_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_consumer_goods
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.03
+			}
+		}
+
+		COL_guerra_selva_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				attrition = -0.05
+				supply_consumption_factor = -0.05
+				army_attack_factor = 0.03
+			}
+		}
+
+		COL_guerra_montana_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				attrition = -0.05
+				supply_consumption_factor = -0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		COL_logistica_andina_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				supply_consumption_factor = -0.10
+				army_org_factor = 0.05
+			}
+		}
+
+		COL_ejercito_profesional_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			modifier = {
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				training_time_factor = -0.15
+			}
+		}
+
+		COL_libertad_prensa_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.10
+				democratic_drift = 0.02
+			}
+		}
+
+		COL_movimiento_nacional_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				war_support_factor = 0.10
+				fascism_drift = 0.03
+				mobilization_speed = 0.10
+			}
+		}
+
+		COL_defensa_hemisferica_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				defence = 0.10
+				army_core_defence_factor = 0.15
+			}
+		}
+
+		COL_sueno_bolivar_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.02
+				army_attack_factor = 0.10
+				justify_war_goal_time = -0.25
+			}
+		}
+
+		COL_guerra_total_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_war_preparation
+			modifier = {
+				war_support_weekly = 0.002
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+
+		COL_fortaleza_amazonica_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_fortify_the_borders
+			modifier = {
+				army_core_defence_factor = 0.10
+				attrition = -0.15
+				supply_consumption_factor = -0.10
+			}
+		}
+
+		COL_ejercito_obsoleto = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_org_factor = -0.15
+				army_morale_factor = -0.10
+				training_time_factor = 0.15
+				army_attack_factor = -0.10
+			}
+		}
+
+		COL_ejercito_reformado = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_org_factor = -0.10
+				army_morale_factor = -0.05
+				training_time_factor = 0.10
+			}
+		}
+
+		COL_ejercito_moderno = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_org_factor = -0.05
+				training_time_factor = 0.05
+			}
+		}
+
+		COL_ejercito_competente = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+
+		COL_ejercito_elite = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				training_time_factor = -0.10
+				army_attack_factor = 0.05
+			}
+		}
+
+		COL_marina_inexistente = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				navy_org_factor = -0.15
+				naval_speed_factor = -0.10
+				production_speed_dockyard_factor = -0.15
+				navy_max_range_factor = -0.20
+			}
+		}
+
+		COL_marina_costera = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				navy_org_factor = -0.10
+				naval_speed_factor = -0.05
+				production_speed_dockyard_factor = -0.10
+			}
+		}
+
+		COL_marina_regional = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				navy_org_factor = -0.05
+				production_speed_dockyard_factor = -0.05
+			}
+		}
+
+		COL_marina_competente = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				navy_org_factor = 0.05
+				naval_speed_factor = 0.05
+			}
+		}
+
+		COL_marina_caribe = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				navy_org_factor = 0.10
+				naval_speed_factor = 0.10
+				production_speed_dockyard_factor = 0.10
+				navy_max_range_factor = 0.15
+			}
+		}
+
+		COL_operaciones_anfibias_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				naval_invasion_prep_speed = 0.15
+				naval_invasion_capacity = 10
+				army_org_factor = 0.05
+			}
+		}
+
+		COL_fuerzas_especiales_navales_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				army_org_factor = 0.05
+				training_time_factor = -0.05
+				supply_consumption_factor = -0.05
+			}
+		}
+
+		COL_comandos_costas_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+				war_support_factor = 0.05
+				training_time_factor = -0.05
+			}
+		}
+
+		COL_entrenamiento_integrado_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				training_time_factor = -0.10
+				army_org_factor = 0.05
+			}
+		}
+
+		COL_logistica_conjunta_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				supply_consumption_factor = -0.05
+				army_org_factor = 0.05
+			}
+		}
+
+		COL_aviacion_primitiva = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier = {
+				air_attack_factor = -0.15
+				air_defence_factor = -0.10
+				air_ace_generation_chance_factor = -0.20
+				production_speed_air_base_factor = -0.15
+			}
+		}
+
+		COL_aviacion_basica = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier = {
+				air_attack_factor = -0.10
+				air_defence_factor = -0.05
+				production_speed_air_base_factor = -0.10
+			}
+		}
+
+		COL_aviacion_funcional = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier = {
+				air_attack_factor = -0.05
+				production_speed_air_base_factor = -0.05
+			}
+		}
+
+		COL_aviacion_moderna = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier = {
+				air_attack_factor = 0.05
+				air_defence_factor = 0.05
+			}
+		}
+
+		COL_aviacion_dominante = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_air_bonus
+			modifier = {
+				air_attack_factor = 0.10
+				air_defence_factor = 0.10
+				air_ace_generation_chance_factor = 0.15
+				production_speed_air_base_factor = 0.10
+			}
+		}
+
+		COL_gobierno_inestable = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = -0.20
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				drift_defence_factor = -0.25
+			}
+		}
+
+		COL_gobierno_debil = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+
+		COL_gobierno_estable = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = 0.00
+			}
+		}
+
+		COL_gobierno_fuerte = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.05
+			}
+		}
+
+		COL_gobierno_consolidado = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_power_factor = 0.20
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				drift_defence_factor = 0.25
+			}
+		}
+	}
+}

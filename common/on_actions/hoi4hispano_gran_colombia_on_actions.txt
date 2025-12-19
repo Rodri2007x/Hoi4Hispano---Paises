@@ -1,0 +1,46 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			491 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+				add_resource = {
+					type = aluminium
+					amount = 16
+				}
+				add_resource = {
+					type = tungsten
+					amount = 8
+				}
+			}
+			every_country = {
+				limit = { tag = COL }
+				country_event = { id = gran_colombia.100 days = 1 }
+			}
+		}
+	}
+
+	on_monthly_COL = {
+		effect = {
+			if = {
+				limit = {
+					owns_state = 491
+					491 = {
+						compliance > 60
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				add_state_core = 491
+				491 = {
+					remove_dynamic_modifier = { modifier = hoi4hispano_resistencia_peruana }
+					clr_state_flag = hoi4hispano_resistencia_peruana_applied
+				}
+				set_country_flag = COL_loreto_integrado
+				mark_focus_tree_layout_dirty = yes
+				country_event = { id = gran_colombia.101 }
+			}
+		}
+	}
+}

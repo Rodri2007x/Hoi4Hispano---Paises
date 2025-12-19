@@ -1,0 +1,255 @@
+resistencia_peruana_category = {
+
+	hoi4hispano_resistencia_peruana_mission = {
+		icon = generic_crisis
+		is_good = no
+
+		activation = {
+			original_tag = COL
+			owns_state = 491
+			NOT = { 491 = { is_core_of = ROOT } }
+			NOT = { 491 = { has_state_flag = hoi4hispano_resistencia_peruana_applied } }
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_trigger = {
+			NOT = { owns_state = 491 }
+		}
+
+		fire_only_once = yes
+		days_mission_timeout = 7
+
+		timeout_effect = {
+			491 = {
+				add_dynamic_modifier = {
+					modifier = hoi4hispano_resistencia_peruana
+				}
+				set_state_flag = hoi4hispano_resistencia_peruana_applied
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	operacion_pacificacion = {
+		icon = generic_army_support
+
+		available = {
+			has_manpower > 5000
+			has_political_power > 25
+		}
+
+		visible = {
+			owns_state = 491
+			NOT = { 491 = { is_core_of = ROOT } }
+			NOT = { has_country_flag = pacificacion_activa }
+		}
+
+		fire_only_once = no
+		days_re_enable = 60
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = pacificacion_activa
+			add_manpower = -5000
+			491 = {
+				add_compliance = 5
+				add_resistance = -10
+			}
+			hidden_effect = {
+				country_event = { id = resistencia_peru.1 days = 30 }
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	propaganda_integracion = {
+		icon = generic_political_discourse
+
+		available = {
+			has_political_power > 50
+		}
+
+		visible = {
+			owns_state = 491
+			NOT = { 491 = { is_core_of = ROOT } }
+			NOT = { has_country_flag = propaganda_activa }
+		}
+
+		fire_only_once = no
+		days_re_enable = 45
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = propaganda_activa
+			491 = {
+				add_compliance = 8
+			}
+			hidden_effect = {
+				country_event = { id = resistencia_peru.2 days = 30 }
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	desarrollo_infraestructura = {
+		icon = generic_construction
+
+		available = {
+			num_of_civilian_factories > 5
+		}
+
+		visible = {
+			owns_state = 491
+			NOT = { 491 = { is_core_of = ROOT } }
+			NOT = { has_country_flag = desarrollo_activo }
+		}
+
+		fire_only_once = no
+		days_re_enable = 90
+
+		cost = 100
+
+		complete_effect = {
+			set_country_flag = desarrollo_activo
+			491 = {
+				add_compliance = 10
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				country_event = { id = resistencia_peru.3 days = 60 }
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	negociacion_lideres_locales = {
+		icon = generic_civil_support
+
+		available = {
+			has_political_power > 100
+		}
+
+		visible = {
+			owns_state = 491
+			NOT = { 491 = { is_core_of = ROOT } }
+			NOT = { has_country_flag = negociacion_activa }
+		}
+
+		fire_only_once = no
+		days_re_enable = 120
+
+		cost = 150
+
+		complete_effect = {
+			set_country_flag = negociacion_activa
+			491 = {
+				add_compliance = 15
+				add_resistance = -5
+			}
+			hidden_effect = {
+				country_event = { id = resistencia_peru.4 days = 45 }
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	amnistia_guerrilleros = {
+		icon = generic_agreement
+
+		available = {
+			has_political_power > 75
+			491 = {
+				compliance > 30
+			}
+		}
+
+		visible = {
+			owns_state = 491
+			NOT = { 491 = { is_core_of = ROOT } }
+		}
+
+		fire_only_once = yes
+
+		cost = 125
+
+		complete_effect = {
+			491 = {
+				add_compliance = 20
+				add_resistance = -15
+			}
+			add_stability = -0.03
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+}
+
+political_actions = {
+	COL_reclamar_canal_panama_a_usa = {
+		icon = generic_diplomatic
+
+		available = {
+			has_country_flag = COL_desbloquea_decision_canal_panama
+			NOT = { has_country_flag = COL_canal_panama_reclamado }
+			has_political_power > 75
+			OR = {
+				owns_state = 304
+				controls_state = 304
+				PAN = { is_subject_of = ROOT }
+			}
+			USA = { exists = yes owns_state = 685 }
+		}
+
+		visible = {
+			has_country_flag = COL_desbloquea_decision_canal_panama
+			NOT = { has_country_flag = COL_canal_panama_reclamado }
+			OR = {
+				owns_state = 304
+				controls_state = 304
+				PAN = { is_subject_of = ROOT }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			set_country_flag = COL_canal_panama_reclamado
+			hidden_effect = {
+				USA = { country_event = { id = gran_colombia.202 days = 1 } }
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

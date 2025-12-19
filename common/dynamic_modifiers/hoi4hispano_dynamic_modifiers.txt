@@ -1,0 +1,14 @@
+hoi4hispano_resistencia_peruana = {
+	enable = { always = yes }
+	icon = GFX_modifiers_generic_military_plans
+
+	temporary_state_resource_steel = -16
+	temporary_state_resource_aluminium = -16
+	temporary_state_resource_tungsten = -8
+	local_building_slots_factor = -0.15
+	local_supplies = -0.20
+	compliance_growth = -0.20
+	resistance_growth = 0.20
+	resistance_target = 0.15
+	attrition_for_controller = 0.05
+}
