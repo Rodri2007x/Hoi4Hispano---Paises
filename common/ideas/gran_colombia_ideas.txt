@@ -480,23 +480,96 @@ ideas = {
 			removal_cost = -1
 			picture = generic_pp_unity_bonus
 			modifier = {
-				political_advisor_cost_factor = 1
-				economy_cost_factor = 1
-				mobilization_laws_cost_factor = 1
-				army_chief_cost_factor = 1
-                navy_chief_cost_factor = 1
-                air_chief_cost_factor = 1
+				political_advisor_cost_factor = 5
+				economy_cost_factor = 5
+				mobilization_laws_cost_factor = 5
+				army_chief_cost_factor = 5
+                navy_chief_cost_factor = 5
+                air_chief_cost_factor = 5
 				consumer_goods_factor = 1
 				political_power_cost = 4
-                navy_org = -0.5
+                navy_org = -2
 				air_accidents = 10
 				cannot_use_abilities = 1
                 attrition = 1
-				breakthrough_factor = -0.10
-				army_org = -1
+				breakthrough_factor = -1
+				army_org = -10
 				offence = -1
 				
 				
+			}
+		}
+		COL_Gobierno_reformado_por_el_general = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_advisor_cost_factor = 0
+				economy_cost_factor = 0
+				mobilization_laws_cost_factor = 0
+				army_chief_cost_factor = 0
+                navy_chief_cost_factor = 0
+                air_chief_cost_factor = 0
+				consumer_goods_factor = 0
+				political_power_cost = 0
+                navy_org = 0
+				air_accidents = 0
+				cannot_use_abilities = 0
+                attrition = 0
+				breakthrough_factor = 0.1
+				army_org = 1
+				offence = 0.05
+				
+				
+			}
+		}
+
+		COL_Gobierno_militar_del_general_divino = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				consumer_goods_factor = -0.1
+                attrition = -0.75
+				winter_attrition_factor = -1
+				heat_attrition_factor = -1
+				breakthrough_factor = 0.2
+				
+			}
+		}
+
+		COL_Reino_divino_del_general = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				breakthrough_factor = 0.1
+				army_org = 1
+				offence = 0.05
+				defence = 0.20
+				river_crossing_factor = -0.5
+				pocket_penalty = -0.5
+				recruitable_population = 0.02
+			}
+		}
+		COL_Adaptacion_Perfecta_del_general = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				breakthrough_factor = 0.1
+				army_org = 1
+				offence = 0.05
+				defence = 0.20
+				river_crossing_factor = -0.5
+				pocket_penalty = -0.5
+				recruitable_population = 0.02
+				production_speed_infrastructure_factor = 1
+				production_speed_rail_way_factor = 1
+				production_speed_supply_node_factor = 2
+				production_speed_naval_base_factor = 2
+				production_lack_of_resource_penalty_factor = -0.5
+                line_change_production_efficiency_factor = 0.25
 			}
 		}
 	}

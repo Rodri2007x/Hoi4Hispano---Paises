@@ -1954,8 +1954,10 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = COL_General_Divino }
 		completion_reward = {
-			add_political_power = 150
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = COL_Gobierno_en_caos
+				add_idea = COL_Gobierno_reformado_por_el_general
+			}
 		}
 	}
 
@@ -1967,8 +1969,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = COL_General_Divino }
 		completion_reward = {
-			add_political_power = 150
-			add_stability = 0.05
+			add_ideas = COL_Gobierno_militar_del_general_divino
 		}
 	}
 
@@ -1980,8 +1981,10 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = COL_Forma focus = COL_La_Unica }
 		completion_reward = {
-			add_political_power = 150
-			add_stability = 0.05
+		    swap_ideas = {
+				remove_idea = COL_Gobierno_reformado_por_el_general
+				add_idea = COL_Reino_divino_del_general
+			}
 		}
 	}
 
@@ -1993,8 +1996,10 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = COL_De_Matar }
 		completion_reward = {
-			add_political_power = 150
-			add_stability = 0.05
+		    swap_ideas = {
+				remove_idea = COL_Reino_divino_del_general
+				add_idea = COL_Adaptacion_Perfecta_del_general
+			}
 		}
 	}
 }
