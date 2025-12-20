@@ -3,9 +3,4 @@ opinion_modifiers = {
 		value = 50
 		decay = 0.5
 	}
-
-	COL_cooperacion = {
-		value = 75
-		decay = 0.5
-	}
 }

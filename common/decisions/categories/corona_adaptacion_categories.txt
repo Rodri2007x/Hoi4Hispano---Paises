@@ -1,0 +1,23 @@
+corona_adaptacion_category = {
+	icon = generic_political_discourse
+	scripted_gui = COL_corona_adaptacion_gui
+
+	priority = 50
+
+	visible = {
+		original_tag = COL
+		owns_state = 687
+		owns_state = 488
+		owns_state = 307
+		owns_state = 489
+		owns_state = 493
+		owns_state = 306
+		owns_state = 486
+		owns_state = 490
+		owns_state = 305
+		owns_state = 491
+		owns_state = 304
+		owns_state = 685
+		owns_state = 649
+	}
+}

@@ -1,0 +1,10 @@
+scripted_gui = {
+	COL_corona_adaptacion_gui = {
+		context_type = decision_category
+		window_name = "COL_corona_adaptacion_gui_window"
+
+		visible = {
+			always = yes
+		}
+	}
+}
