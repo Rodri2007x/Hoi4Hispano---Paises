@@ -1940,11 +1940,12 @@ focus_tree = {
 		icon = GFX_focus_ARG_strengthening_the_concordancia
 		x = 38
 		y = 10
-		cost = 10
+		cost = 5
 		completion_reward = {
 			add_idea = COL_Gobierno_en_caos
 		}
 	}
+	
 	focus = {
 		id = COL_La_Unica
 		icon = GFX_focus_ARG_strengthening_the_concordancia
