@@ -23,9 +23,6 @@
  COL_corona_adaptacion_gain_piece_tt:0 "Consigue 1 pieza de la corona."
  COL_corona_adaptacion_no_piece_tt:0 "No consigues ninguna pieza."
 
- hoi4hispano_resistencia_peruana_mission:0 "Resistencia en Loreto"
- hoi4hispano_resistencia_peruana_mission_desc:0 "La resistencia local está desestabilizando la región y saboteando el desarrollo."
-
  operacion_pacificacion:0 "Operación de Pacificación"
  operacion_pacificacion_desc:0 "Reducir la resistencia mediante operaciones militares en Loreto."
 

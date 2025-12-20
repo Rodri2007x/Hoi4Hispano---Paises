@@ -1,41 +1,5 @@
 resistencia_peruana_category = {
 
-	hoi4hispano_resistencia_peruana_mission = {
-		icon = generic_crisis
-		is_good = no
-
-		activation = {
-			original_tag = COL
-			owns_state = 491
-			NOT = { 491 = { is_core_of = ROOT } }
-			NOT = { 491 = { has_state_flag = hoi4hispano_resistencia_peruana_applied } }
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_trigger = {
-			NOT = { owns_state = 491 }
-		}
-
-		fire_only_once = yes
-		days_mission_timeout = 7
-
-		timeout_effect = {
-			491 = {
-				add_dynamic_modifier = {
-					modifier = hoi4hispano_resistencia_peruana
-				}
-				set_state_flag = hoi4hispano_resistencia_peruana_applied
-			}
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-
 	operacion_pacificacion = {
 		icon = generic_army_support
 
