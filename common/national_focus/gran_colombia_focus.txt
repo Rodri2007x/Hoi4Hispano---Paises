@@ -1068,6 +1068,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = special_forces
+				# eta vaina no funca=categoria erronea
 			}
 		}
 	}
@@ -1435,6 +1436,7 @@ focus_tree = {
 		prerequisite = { focus = COL_servicio_inteligencia }
 		completion_reward = {
 			add_operative_slot = 1
+			#esto no va=tipo de efecto erroneo
 			add_political_power = 50
 		}
 	}
@@ -1452,12 +1454,14 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = encryption
+				#categoria erronea
 			}
 			add_tech_bonus = {
 				name = COL_criptografia_militar_2
 				bonus = 1.0
 				uses = 1
 				category = decryption
+				#categoria erronea
 			}
 		}
 	}
@@ -1942,10 +1946,10 @@ focus_tree = {
 		y = 10
 		cost = 5
 		completion_reward = {
-			add_idea = COL_Gobierno_en_caos
+			add_ideas = COL_Gobierno_en_caos
 		}
 	}
-	
+
 	focus = {
 		id = COL_La_Unica
 		icon = GFX_focus_ARG_strengthening_the_concordancia
