@@ -7,12 +7,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "COL_corona_adaptacion_gui_text"
-			position = { x = 6 y = 2 }
+			position = { x = 270 y = 2 }
 			font = "hoi_16mbs"
 			text = "[GetCOLCoronaAdaptacionPiecesText]"
-			maxWidth = 500
+			maxWidth = 190
 			maxHeight = 24
-			format = left
+			format = right
 		}
 	}
 }

@@ -1940,7 +1940,8 @@ focus_tree = {
 		x = 38
 		y = 10
 		cost = 5
-		allow_branch = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+		visible = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+		available = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
 		completion_reward = {
 			add_ideas = COL_Gobierno_en_caos
 		}
@@ -1952,6 +1953,8 @@ focus_tree = {
 		x = 37
 		y = 11
 		cost = 10
+		visible = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+		available = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
 		prerequisite = { focus = COL_General_Divino }
 		completion_reward = {
 			add_political_power = 150
@@ -1965,6 +1968,8 @@ focus_tree = {
 		x = 39
 		y = 11
 		cost = 10
+		visible = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+		available = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
 		prerequisite = { focus = COL_General_Divino }
 		completion_reward = {
 			add_political_power = 150
@@ -1978,6 +1983,8 @@ focus_tree = {
 		x = 38
 		y = 12
 		cost = 10
+		visible = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+		available = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
 		prerequisite = { focus = COL_Forma focus = COL_La_Unica }
 		completion_reward = {
 			add_political_power = 150
@@ -1991,6 +1998,8 @@ focus_tree = {
 		x = 38
 		y = 13
 		cost = 10
+		visible = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+		available = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
 		prerequisite = { focus = COL_De_Matar }
 		completion_reward = {
 			add_political_power = 150

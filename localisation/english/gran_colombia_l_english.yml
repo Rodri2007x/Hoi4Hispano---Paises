@@ -68,6 +68,11 @@
  gran_colombia.101.d:0 "Loreto ha sido integrado a la administración de Gran Colombia. Ahora podemos desarrollar la región y asegurar el control sobre la Amazonía."
  gran_colombia.101.a:0 "Excelente"
 
+ corona_adaptacion.1.t:0 "La corona está completa"
+ corona_adaptacion.1.d:0 "Hemos reunido las cinco piezas perdidas de la Corona de la Adaptación. Con la corona completa, podemos realizar la invocación perfecta y abrir un nuevo camino para Gran Colombia."
+ corona_adaptacion.1.a:0 "Que comience la invocación"
+
+
  # ==========================================
  # PAIS
  # ==========================================
@@ -117,6 +122,22 @@
  
  COL_acero_nacional:0 "Acero Nacional"
  COL_acero_nacional_desc:0 "Producción de acero para la industria de guerra."
+
+ COL_General_Divino:0 "General Divino"
+ COL_General_Divino_desc:0 "Una nueva senda se abre ante nosotros."
+
+ COL_La_Unica:0 "La Única"
+ COL_La_Unica_desc:0 "Con la corona completa, nada volverá a ser igual."
+
+ COL_Forma:0 "La Forma"
+ COL_Forma_desc:0 "Daremos estructura a nuestro nuevo poder."
+
+ COL_De_Matar:0 "De Matar"
+ COL_De_Matar_desc:0 "La voluntad se convierte en acción."
+
+ COL_A_Mahoraga:0 "A Mahoraga"
+ COL_A_Mahoraga_desc:0 "La invocación exige determinación absoluta."
+
  
  COL_industria_pesada:0 "Industria Pesada"
  COL_industria_pesada_desc:0 "Desarrollar una base industrial pesada para la autosuficiencia."
