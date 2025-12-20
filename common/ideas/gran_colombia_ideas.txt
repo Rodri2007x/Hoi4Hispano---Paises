@@ -60,9 +60,8 @@ ideas = {
 			removal_cost = -1
 			picture = generic_production_bonus
 			modifier = {
-				production_efficiency_gain_factor = 0.10
-				production_efficiency_cap_factor = 0.10
-				#mal=modificador no valido
+				production_efficiency_gain = 0.10
+				production_efficiency_cap = 0.10
 			}
 		}
 

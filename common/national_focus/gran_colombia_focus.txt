@@ -1435,8 +1435,6 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = COL_servicio_inteligencia }
 		completion_reward = {
-			add_operative_slot = 1
-			#esto no va=tipo de efecto erroneo
 			add_political_power = 50
 		}
 	}
