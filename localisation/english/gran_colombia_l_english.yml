@@ -619,6 +619,21 @@
  COL_prosperidad_idea:0 "Prosperidad Comercial"
  COL_prosperidad_idea_desc:0 "El comercio internacional ha traído riqueza a nuestra nación."
 
+ COL_Gobierno_en_caos:0 "Gobierno en Caos"
+ COL_Gobierno_en_caos_desc:0 "La autoridad se fragmenta mientras el General concentra poder y redefine el rumbo del Estado."
+
+ COL_Gobierno_reformado_por_el_general:0 "Gobierno Reformado por el General"
+ COL_Gobierno_reformado_por_el_general_desc:0 "Una administración reorganizada y disciplinada para ejecutar la nueva visión nacional."
+
+ COL_Gobierno_militar_del_general_divino:0 "Gobierno Militar del General Divino"
+ COL_Gobierno_militar_del_general_divino_desc:0 "La cadena de mando se impone sobre la política: disciplina, control y orden por encima de todo."
+
+ COL_Reino_divino_del_general:0 "Reino Divino del General"
+ COL_Reino_divino_del_general_desc:0 "Un régimen sacralizado donde el poder se legitima como destino y la voluntad del General es ley."
+
+ COL_Adaptacion_Perfecta_del_general:0 "Adaptación Perfecta del General"
+ COL_Adaptacion_Perfecta_del_general_desc:0 "La estructura final del régimen: flexible, implacable y eficaz ante cualquier amenaza."
+
  COL_ejercito_elite:0 "Ejército de Élite"
  COL_ejercito_elite_desc:0 "Una fuerza altamente entrenada y motivada, preparada para operaciones decisivas."
 
