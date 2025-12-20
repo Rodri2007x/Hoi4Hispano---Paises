@@ -1,0 +1,28 @@
+defined_text = {
+	name = GetCOLCoronaAdaptacionPiecesText
+
+	text = {
+		trigger = { check_variable = { var = COL_corona_adaptacion_piezas value = 0 compare = equals } }
+		localization_key = COL_corona_adaptacion_gui_text_0
+	}
+	text = {
+		trigger = { check_variable = { var = COL_corona_adaptacion_piezas value = 1 compare = equals } }
+		localization_key = COL_corona_adaptacion_gui_text_1
+	}
+	text = {
+		trigger = { check_variable = { var = COL_corona_adaptacion_piezas value = 2 compare = equals } }
+		localization_key = COL_corona_adaptacion_gui_text_2
+	}
+	text = {
+		trigger = { check_variable = { var = COL_corona_adaptacion_piezas value = 3 compare = equals } }
+		localization_key = COL_corona_adaptacion_gui_text_3
+	}
+	text = {
+		trigger = { check_variable = { var = COL_corona_adaptacion_piezas value = 4 compare = equals } }
+		localization_key = COL_corona_adaptacion_gui_text_4
+	}
+	text = {
+		trigger = { check_variable = { var = COL_corona_adaptacion_piezas value = 5 compare = greater_than_or_equals } }
+		localization_key = COL_corona_adaptacion_gui_text_5
+	}
+}

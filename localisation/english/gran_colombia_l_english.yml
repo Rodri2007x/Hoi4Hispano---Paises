@@ -10,6 +10,19 @@
  resistencia_peruana_category:0 "Resistencia Peruana"
  resistencia_peruana_category_desc:0 "Acciones para pacificar e integrar Loreto."
 
+ corona_adaptacion_category:0 "La corona de la adaptacion"
+ corona_adaptacion_category_desc:0 "Despues de la reunificacion de la gran colombia el lider busco una forma de la adquision del poder de la adaptacion la unica forma de hacerlo era reunir las piezas perdidas de la corona de la adaptacion para crear la invocacion perfecta"
+
+ COL_corona_adaptacion_gui_text_0:0 "Piezas: 0/5"
+ COL_corona_adaptacion_gui_text_1:0 "Piezas: 1/5"
+ COL_corona_adaptacion_gui_text_2:0 "Piezas: 2/5"
+ COL_corona_adaptacion_gui_text_3:0 "Piezas: 3/5"
+ COL_corona_adaptacion_gui_text_4:0 "Piezas: 4/5"
+ COL_corona_adaptacion_gui_text_5:0 "Piezas: 5/5"
+
+ COL_corona_adaptacion_gain_piece_tt:0 "Consigue 1 pieza de la corona."
+ COL_corona_adaptacion_no_piece_tt:0 "No consigues ninguna pieza."
+
  hoi4hispano_resistencia_peruana_mission:0 "Resistencia en Loreto"
  hoi4hispano_resistencia_peruana_mission_desc:0 "La resistencia local está desestabilizando la región y saboteando el desarrollo."
 
@@ -27,6 +40,9 @@
 
  amnistia_guerrilleros:0 "Amnistía a Guerrilleros"
  amnistia_guerrilleros_desc:0 "Ofrecer amnistía a cambio de desmovilización y cooperación."
+
+ COL_buscar_pieza_corona_adaptacion:0 "Buscar una pieza de la corona"
+ COL_buscar_pieza_corona_adaptacion_desc:0 "Gastaremos poder político para intentar recuperar una pieza perdida."
 
  hoi4hispano_resistencia_peruana:0 "Resistencia Peruana"
  hoi4hispano_resistencia_peruana_desc:0 "La resistencia local dificulta el control y reduce el potencial económico de la región."

@@ -1,0 +1,57 @@
+corona_adaptacion_category = {
+
+	COL_buscar_pieza_corona_adaptacion = {
+		icon = generic_political_discourse
+
+		available = {
+			has_political_power > 49
+			check_variable = { var = COL_corona_adaptacion_piezas value = 5 compare = less_than }
+		}
+
+		visible = {
+			original_tag = COL
+			owns_state = 687
+			owns_state = 488
+			owns_state = 307
+			owns_state = 489
+			owns_state = 493
+			owns_state = 306
+			owns_state = 486
+			owns_state = 490
+			owns_state = 305
+			owns_state = 491
+			owns_state = 304
+			owns_state = 685
+			owns_state = 649
+			check_variable = { var = COL_corona_adaptacion_piezas value = 5 compare = less_than }
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			random_list = {
+				50 = {
+					custom_effect_tooltip = COL_corona_adaptacion_gain_piece_tt
+					add_to_variable = { var = COL_corona_adaptacion_piezas value = 1 }
+				}
+				50 = {
+					custom_effect_tooltip = COL_corona_adaptacion_no_piece_tt
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = { var = COL_corona_adaptacion_piezas value = 5 compare = greater_than_or_equals }
+					NOT = { has_country_flag = COL_corona_adaptacion_focus_tree_unlocked }
+				}
+				set_country_flag = COL_corona_adaptacion_focus_tree_unlocked
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
