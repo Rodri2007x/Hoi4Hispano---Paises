@@ -60,6 +60,22 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = COL_industria_nacional }
 		completion_reward = {
+			build_railway = {
+             level = 2
+             build_only_on_allied = yes
+             fallback = yes
+             start_province = 10747
+             path = { 2079 10846 }
+             target_province = 12798
+            }
+			build_railway = {
+             level = 2
+             build_only_on_allied = yes
+             fallback = yes
+             start_province = 10747
+             path = { 7993 5000 4942 }
+             target_province = 8113
+            }
 			every_owned_state = {
 				add_building_construction = {
 					type = infrastructure
