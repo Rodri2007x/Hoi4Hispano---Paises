@@ -168,7 +168,7 @@ country_event = {
 
 	option = {
 		name = gran_colombia.201.a
-		COL = { set_autonomy = { target = ROOT autonomy_state = autonomy_puppet } }
+		COL = { annex_country = { target = PAN } }
 	}
 
 	option = {

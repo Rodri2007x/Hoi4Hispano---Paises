@@ -4,7 +4,7 @@ corona_adaptacion_category = {
 		icon = generic_political_discourse
 
 		available = {
-			has_political_power > 49
+			has_political_power > 50
 			check_variable = { var = COL_corona_adaptacion_piezas value = 5 compare = less_than }
 		}
 
