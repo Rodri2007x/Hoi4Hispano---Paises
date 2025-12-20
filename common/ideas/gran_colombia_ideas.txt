@@ -148,6 +148,18 @@ ideas = {
 			}
 		}
 
+        COL_guerra_especializada_idea = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			modifier = {
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1
+				acclimatization_hot_climate_gain_factor = 0.2
+				special_forces_cap = 0.2
+			}
+		}
+
 		COL_guerra_montana_idea = {
 			allowed = { always = no }
 			removal_cost = -1
@@ -515,6 +527,31 @@ ideas = {
 				stability_factor = 0.10
 				war_support_factor = 0.10
 				drift_defence_factor = 0.25
+			}
+		}
+
+		COL_Gobierno_en_caos = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+			modifier = {
+				political_advisor_cost_factor = 1
+				economy_cost_factor = 1
+				mobilization_laws_cost_factor = 1
+				army_chief_cost_factor = 1
+                navy_chief_cost_factor = 1
+                air_chief_cost_factor = 1
+				consumer_goods_factor = 1
+				political_power_cost = 4
+                navy_org = -0.5
+				air_accidents = 10
+				cannot_use_abilities = 1
+                attrition = 1
+				breakthrough_factor = -0.10
+				army_org = -1
+				offence = 1
+				
+				
 			}
 		}
 	}
