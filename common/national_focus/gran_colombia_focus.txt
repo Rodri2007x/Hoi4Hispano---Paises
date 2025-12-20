@@ -1067,8 +1067,7 @@ focus_tree = {
 				name = COL_comandos_anfibios
 				bonus = 1.0
 				uses = 1
-				category = special_forces
-				# eta vaina no funca=categoria erronea
+				category = infantry_weapons
 			}
 		}
 	}
@@ -1451,15 +1450,13 @@ focus_tree = {
 				name = COL_criptografia_militar
 				bonus = 1.0
 				uses = 1
-				category = encryption
-				#categoria erronea
+				category = electronics
 			}
 			add_tech_bonus = {
 				name = COL_criptografia_militar_2
 				bonus = 1.0
 				uses = 1
-				category = decryption
-				#categoria erronea
+				category = electronics
 			}
 		}
 	}
