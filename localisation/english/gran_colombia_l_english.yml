@@ -257,6 +257,9 @@
  # FOCOS - EJERCITO
  # ==========================================
 
+ COL_Las_fuerzas_armadas:0 "Las Fuerzas Armadas"
+ COL_Las_fuerzas_armadas_desc:0 "Reorganizar y modernizar el ejército, la armada y la aviación."
+
  COL_reorganizar_ejercito:0 "Reorganizar el Ejército"
  COL_reorganizar_ejercito_desc:0 "Modernizar la estructura de nuestras fuerzas armadas."
  
@@ -280,6 +283,9 @@
  
  COL_ejercito_profesional:0 "Ejército Profesional"
  COL_ejercito_profesional_desc:0 "Un ejército bien entrenado y disciplinado."
+
+ COL_guerra_especializada:0 "Guerra Especializada"
+ COL_guerra_especializada_desc:0 "Entrenar fuerzas adaptadas a escenarios y misiones específicas."
  
  COL_guerra_selva:0 "Guerra de Selva"
  COL_guerra_selva_desc:0 "Dominar el combate en la jungla amazónica."
@@ -567,6 +573,18 @@
 
  COL_ejercito_profesional_idea:0 "Ejército Profesional"
  COL_ejercito_profesional_idea_desc:0 "Nuestro ejército está formado por soldados profesionales bien entrenados."
+
+ COL_ejercito_obsoleto:0 "Ejército Obsoleto"
+ COL_ejercito_obsoleto_desc:0 "Doctrinas antiguas, equipamiento limitado y baja preparación operativa."
+
+ COL_ejercito_reformado:0 "Ejército Reformado"
+ COL_ejercito_reformado_desc:0 "Reformas organizativas y de entrenamiento han mejorado la eficiencia del ejército."
+
+ COL_ejercito_moderno:0 "Ejército Moderno"
+ COL_ejercito_moderno_desc:0 "Estandarización, doctrina actualizada y mejor logística para operaciones sostenidas."
+
+ COL_ejercito_competente:0 "Ejército Competente"
+ COL_ejercito_competente_desc:0 "Mando profesional y tropas capaces de cumplir misiones complejas con eficacia."
  
  COL_guerra_selva_idea:0 "Expertos en Selva"
  COL_guerra_selva_idea_desc:0 "Nuestras tropas dominan el combate en la jungla."
@@ -610,8 +628,26 @@
  COL_aviacion_dominante:0 "Aviación Dominante"
  COL_aviacion_dominante_desc:0 "Superioridad aérea basada en doctrina, entrenamiento y capacidad industrial."
 
+ COL_aviacion_primitiva:0 "Aviación Primitiva"
+ COL_aviacion_primitiva_desc:0 "Nuestros medios aéreos y doctrina están en una fase inicial."
+
+ COL_aviacion_basica:0 "Aviación Básica"
+ COL_aviacion_basica_desc:0 "Una fuerza aérea funcional con entrenamiento y organización básicos."
+
+ COL_aviacion_funcional:0 "Aviación Funcional"
+ COL_aviacion_funcional_desc:0 "Estructura, doctrina y pilotos capaces de operar a nivel moderno."
+
  COL_marina_competente:0 "Marina Competente"
  COL_marina_competente_desc:0 "Una armada profesional capaz de operar de forma eficiente."
+
+ COL_marina_inexistente:0 "Marina Inexistente"
+ COL_marina_inexistente_desc:0 "Nuestra armada es incapaz de operar con eficacia y carece de doctrina y medios adecuados."
+
+ COL_marina_costera:0 "Marina Costera"
+ COL_marina_costera_desc:0 "Una fuerza naval centrada en la defensa costera y el patrullaje cercano."
+
+ COL_marina_regional:0 "Marina Regional"
+ COL_marina_regional_desc:0 "Una armada capaz de proyectar poder a nivel regional y proteger rutas marítimas."
 
  COL_operaciones_anfibias_idea:0 "Planificación Anfibia"
  COL_operaciones_anfibias_idea_desc:0 "Capacidad mejorada para planificar y ejecutar desembarcos navales."
@@ -627,6 +663,9 @@
 
  COL_logistica_conjunta_idea:0 "Logística Conjunta"
  COL_logistica_conjunta_idea_desc:0 "Suministros y coordinación mejorados para sostener operaciones prolongadas."
+
+ COL_guerra_especializada_idea:0 "Guerra Especializada"
+ COL_guerra_especializada_idea_desc:0 "Formación y doctrina enfocadas en operaciones específicas y tropas de élite."
 
  COL_chief_of_army:0 "Jefe del Ejército"
  COL_chief_of_army_desc:0 "Alto mando responsable de doctrina y dirección del ejército."
