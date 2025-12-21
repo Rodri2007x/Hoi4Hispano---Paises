@@ -122,6 +122,73 @@ country_event = {
 }
 
 country_event = {
+	id = gran_colombia.102
+	title = gran_colombia.1.t
+	desc = gran_colombia.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { country_exists = CHL }
+				annex_country = { target = CHL }
+			}
+			if = {
+				limit = { country_exists = PAR }
+				annex_country = { target = PAR }
+			}
+		}
+	}
+
+	option = { name = gran_colombia.1.a }
+}
+
+country_event = {
+	id = gran_colombia.103
+	title = gran_colombia.1.t
+	desc = gran_colombia.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { country_exists = URG }
+				annex_country = { target = URG }
+			}
+		}
+	}
+
+	option = { name = gran_colombia.1.a }
+}
+
+country_event = {
+	id = gran_colombia.104
+	title = gran_colombia.1.t
+	desc = gran_colombia.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { country_exists = BOL }
+				annex_country = { target = BOL }
+			}
+		}
+	}
+
+	option = { name = gran_colombia.1.a }
+}
+
+country_event = {
 	id = gran_colombia.101
 	title = gran_colombia.101.t
 	desc = gran_colombia.101.d

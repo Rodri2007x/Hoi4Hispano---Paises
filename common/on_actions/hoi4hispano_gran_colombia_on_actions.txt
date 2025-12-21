@@ -19,6 +19,18 @@ on_actions = {
 				limit = { tag = COL }
 				country_event = { id = gran_colombia.100 days = 1 }
 			}
+			every_country = {
+				limit = { tag = ARG }
+				country_event = { id = gran_colombia.102 days = 1 }
+			}
+			every_country = {
+				limit = { tag = BRA }
+				country_event = { id = gran_colombia.103 days = 1 }
+			}
+			every_country = {
+				limit = { tag = PRU }
+				country_event = { id = gran_colombia.104 days = 1 }
+			}
 		}
 	}
 
