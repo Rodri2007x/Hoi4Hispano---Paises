@@ -28,7 +28,9 @@ country_event = {
 		major = yes
 
 		immediate = {
-			scoped_sound_effect = "hoi4hispano_mahoraga_sfx"
+			hidden_effect = {
+				scoped_sound_effect = "hoi4hispano_mahoraga_sfx"
+			}
 		}
 
 		option = {
