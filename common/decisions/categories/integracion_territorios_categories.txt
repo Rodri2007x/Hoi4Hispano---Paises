@@ -1,0 +1,23 @@
+integracion_territorios_category = {
+	icon = generic_political_discourse
+
+	priority = 50
+
+	visible = {
+		original_tag = COL
+		OR = {
+			AND = {
+				owns_state = 304
+				NOT = { 304 = { is_core_of = ROOT } }
+			}
+			AND = {
+				owns_state = 687
+				NOT = { 687 = { is_core_of = ROOT } }
+			}
+			AND = {
+				owns_state = 695
+				NOT = { 695 = { is_core_of = ROOT } }
+			}
+		}
+	}
+}

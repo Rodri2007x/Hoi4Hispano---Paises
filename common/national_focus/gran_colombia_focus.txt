@@ -1769,6 +1769,10 @@ focus_tree = {
 		prerequisite = { focus = COL_guerra_total }
 		available = {
 			has_government = fascism
+			ENG = { exists = yes }
+			687 = { is_owned_by = ENG }
+			NOT = { owns_state = 687 }
+			NOT = { has_war_with = ENG }
 		}
 		completion_reward = {
 			ENG = { country_event = { id = gran_colombia.200 days = 1 } }
@@ -1784,6 +1788,10 @@ focus_tree = {
 		prerequisite = { focus = COL_guerra_total }
 		available = {
 			has_government = fascism
+			PAN = { exists = yes }
+			304 = { is_owned_by = PAN }
+			NOT = { owns_state = 304 }
+			NOT = { has_war_with = PAN }
 		}
 		completion_reward = {
 			set_country_flag = COL_desbloquea_decision_canal_panama
@@ -1803,6 +1811,68 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_state_core = 649
+		}
+	}
+
+	focus = {
+		id = COL_pedir_curasao
+		icon = GFX_focus_generic_attack_the_guyanas
+		x = 42
+		y = 10
+		cost = 7
+		prerequisite = { focus = COL_core_galapagos }
+		available = {
+			has_government = fascism
+			695 = { is_owned_by = HOL }
+			NOT = { owns_state = 695 }
+			NOT = { has_war_with = HOL }
+		}
+		completion_reward = {
+			HOL = { country_event = { id = gran_colombia.206 days = 1 } }
+		}
+	}
+
+	focus = {
+		id = COL_reclamar_sumision_peru
+		icon = GFX_goal_support_fascism
+		x = 42
+		y = 11
+		cost = 7
+		prerequisite = { focus = COL_pedir_curasao }
+		available = {
+			has_government = fascism
+			PRU = { exists = yes }
+			NOT = { has_war_with = PRU }
+			NOT = { PRU = { is_subject_of = ROOT } }
+		}
+		completion_reward = {
+			PRU = { country_event = { id = gran_colombia.208 days = 1 } }
+		}
+	}
+
+	focus = {
+		id = COL_repartir_fascismo_sudamerica
+		icon = GFX_goal_support_fascism
+		x = 42
+		y = 12
+		cost = 7
+		prerequisite = { focus = COL_reclamar_sumision_peru }
+		available = {
+			has_government = fascism
+			OR = {
+				AND = { BRA = { exists = yes } NOT = { has_war_with = BRA } }
+				AND = { ARG = { exists = yes } NOT = { has_war_with = ARG } }
+			}
+		}
+		completion_reward = {
+			if = {
+				limit = { BRA = { exists = yes } NOT = { has_war_with = BRA } }
+				create_wargoal = { type = annex_everything target = BRA }
+			}
+			if = {
+				limit = { ARG = { exists = yes } NOT = { has_war_with = ARG } }
+				create_wargoal = { type = annex_everything target = ARG }
+			}
 		}
 	}
 

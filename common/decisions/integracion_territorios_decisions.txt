@@ -1,0 +1,89 @@
+integracion_territorios_category = {
+
+	COL_integrar_panama = {
+		icon = generic_agreement
+
+		available = {
+			original_tag = COL
+			has_political_power > 75
+		}
+
+		visible = {
+			original_tag = COL
+			owns_state = 304
+			NOT = { 304 = { is_core_of = ROOT } }
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			304 = {
+				add_core_of = COL
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	COL_integrar_guyana = {
+		icon = generic_agreement
+
+		available = {
+			original_tag = COL
+			has_political_power > 75
+		}
+
+		visible = {
+			original_tag = COL
+			owns_state = 687
+			NOT = { 687 = { is_core_of = ROOT } }
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			687 = {
+				add_core_of = COL
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	COL_integrar_curasao = {
+		icon = generic_agreement
+
+		available = {
+			original_tag = COL
+			has_political_power > 75
+		}
+
+		visible = {
+			original_tag = COL
+			owns_state = 695
+			NOT = { 695 = { is_core_of = ROOT } }
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			695 = {
+				add_core_of = COL
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

@@ -120,7 +120,7 @@ characters = {
 		name = COL_advisor_silent_workhorse
 		portraits = {
 			civilian = {
-				small = "GFX_idea_silent_workhorse"
+				small = "GFX_idea_generic_political_advisor_south_america_1"
 			}
 		}
 		advisor = {
@@ -136,7 +136,7 @@ characters = {
 		name = COL_advisor_captain_of_industry
 		portraits = {
 			civilian = {
-				small = "GFX_idea_captain_of_industry"
+				small = "GFX_idea_generic_political_advisor_south_america_2"
 			}
 		}
 		advisor = {
@@ -152,7 +152,7 @@ characters = {
 		name = COL_advisor_war_industrialist
 		portraits = {
 			civilian = {
-				small = "GFX_idea_war_industrialist"
+				small = "GFX_idea_generic_political_advisor_south_america_3"
 			}
 		}
 		advisor = {
@@ -168,7 +168,7 @@ characters = {
 		name = COL_advisor_popular_figurehead
 		portraits = {
 			civilian = {
-				small = "GFX_idea_popular_figurehead"
+				small = "GFX_idea_generic_political_advisor_south_america_1"
 			}
 		}
 		advisor = {
@@ -184,7 +184,7 @@ characters = {
 		name = COL_advisor_prince_of_terror
 		portraits = {
 			civilian = {
-				small = "GFX_idea_prince_of_terror"
+				small = "GFX_idea_generic_political_advisor_south_america_2"
 			}
 		}
 		advisor = {
@@ -200,7 +200,7 @@ characters = {
 		name = COL_advisor_backroom_backstabber
 		portraits = {
 			civilian = {
-				small = "GFX_idea_backroom_backstabber"
+				small = "GFX_idea_generic_political_advisor_south_america_3"
 			}
 		}
 		advisor = {
@@ -216,7 +216,7 @@ characters = {
 		name = COL_advisor_ideological_crusader
 		portraits = {
 			civilian = {
-				small = "GFX_idea_ideological_crusader"
+				small = "GFX_idea_generic_political_advisor_south_america_1"
 			}
 		}
 		advisor = {

@@ -244,3 +244,76 @@ country_event = {
 		create_wargoal = { type = annex_everything target = USA }
 	}
 }
+
+country_event = {
+	id = gran_colombia.206
+	title = gran_colombia.206.t
+	desc = gran_colombia.206.d
+	picture = GFX_report_event_generic_diplomatic_message
+
+	is_triggered_only = yes
+
+	option = {
+		name = gran_colombia.206.a
+		if = {
+			limit = { owns_state = 695 }
+			COL = { transfer_state = 695 }
+		}
+	}
+
+	option = {
+		name = gran_colombia.206.b
+		hidden_effect = {
+			COL = { country_event = { id = gran_colombia.207 days = 1 } }
+		}
+	}
+}
+
+country_event = {
+	id = gran_colombia.207
+	title = gran_colombia.207.t
+	desc = gran_colombia.207.d
+	picture = GFX_report_event_generic_diplomatic_message
+
+	is_triggered_only = yes
+
+	option = {
+		name = gran_colombia.207.a
+		create_wargoal = { type = annex_everything target = HOL }
+	}
+}
+
+country_event = {
+	id = gran_colombia.208
+	title = gran_colombia.208.t
+	desc = gran_colombia.208.d
+	picture = GFX_report_event_generic_diplomatic_message
+
+	is_triggered_only = yes
+
+	option = {
+		name = gran_colombia.208.a
+		set_autonomy = { target = COL autonomy_state = autonomy_puppet }
+	}
+
+	option = {
+		name = gran_colombia.208.b
+		hidden_effect = {
+			COL = { country_event = { id = gran_colombia.209 days = 1 } }
+		}
+	}
+}
+
+country_event = {
+	id = gran_colombia.209
+	title = gran_colombia.209.t
+	desc = gran_colombia.209.d
+	picture = GFX_report_event_generic_diplomatic_message
+
+	is_triggered_only = yes
+
+	option = {
+		name = gran_colombia.209.a
+		create_wargoal = { type = annex_everything target = PRU }
+	}
+}
