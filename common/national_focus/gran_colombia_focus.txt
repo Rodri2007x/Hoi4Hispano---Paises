@@ -19,7 +19,7 @@ focus_tree = {
 		icon = GFX_SOV_aristocratic_investments_ccp_2d_sov_compatibility
 		x = 6
 		y = 0
-		cost = 10
+		cost = 7
 		ai_will_do = { factor = 5 }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -38,7 +38,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 5
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_industria_nacional }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -57,7 +57,7 @@ focus_tree = {
 		icon = GFX_focus_generic_energy
 		x = 7
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_industria_nacional }
 		completion_reward = {
 			build_railway = {
@@ -91,7 +91,7 @@ focus_tree = {
 		icon = GFX_focus_CONGO_copper_cartridges
 		x = 5
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_expandir_fabricas }
 		completion_reward = {
 			add_ideas = COL_eficiencia_produccion_idea
@@ -111,7 +111,7 @@ focus_tree = {
 		icon = GFX_focus_generic_central_planning
 		x = 8
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_infraestructura_nacional }
 		completion_reward = {
 			add_tech_bonus = {
@@ -128,7 +128,7 @@ focus_tree = {
 		icon = GFX_focus_DEN_heavy_regulations
 		x = 3
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_industria_militar }
 		prerequisite = { focus = COL_recursos_estrategicos }
 		mutually_exclusive = { focus = COL_comercio_internacional }
@@ -148,7 +148,7 @@ focus_tree = {
 		icon = GFX_goal_generic_positive_trade_relations
 		x = 10
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_industria_militar }
 		prerequisite = { focus = COL_recursos_estrategicos }
 		mutually_exclusive = { focus = COL_autarquia_economica }
@@ -170,7 +170,7 @@ focus_tree = {
 		icon = GFX_focus_generic_resource_extraction
 		x = 2
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_autarquia_economica }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -189,7 +189,7 @@ focus_tree = {
 		icon = GFX_focus_generic_steel
 		x = 4
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_autarquia_economica }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -208,7 +208,7 @@ focus_tree = {
 		icon = GFX_focus_generic_coal_mining
 		x = 0
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_refinamiento_petroleo }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -222,7 +222,7 @@ focus_tree = {
 		icon = GFX_focus_GER_kriegslokomotive
 		x = 2
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_refinamiento_petroleo }
 		prerequisite = { focus = COL_acero_nacional }
 		completion_reward = {
@@ -242,7 +242,7 @@ focus_tree = {
 		icon = GFX_focus_generic_military_industry
 		x = 5
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_acero_nacional }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -261,7 +261,7 @@ focus_tree = {
 		icon = GFX_focus_PER_increase_oil_sales
 		x = 0
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_minas_carbon_autarquia }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -281,7 +281,7 @@ focus_tree = {
 		icon = GFX_focus_generic_electrification
 		x = 2
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_industria_pesada }
 		completion_reward = {
 			add_tech_bonus = {
@@ -298,7 +298,7 @@ focus_tree = {
 		icon = GFX_focus_SWE_let_fly_all_guns
 		x = 5
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_fundiciones_nacionales }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -317,7 +317,7 @@ focus_tree = {
 		icon = GFX_SOV_optimize_production_lines_ccp_2d_sov_compatibility
 		x = 1
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_produccion_combustible }
 		prerequisite = { focus = COL_electrificacion_estatal }
 		completion_reward = {
@@ -337,7 +337,7 @@ focus_tree = {
 		icon = GFX_focus_GER_customs_union
 		x = 5
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_electrificacion_estatal }
 		prerequisite = { focus = COL_arsenales_estado }
 		completion_reward = {
@@ -427,7 +427,7 @@ focus_tree = {
 		icon = GFX_focus_RAJ_seek_allies_with_the_muslim_league
 		x = 9
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_comercio_internacional }
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
@@ -443,7 +443,7 @@ focus_tree = {
 		icon = GFX_focus_RAJ_special_economic_zones
 		x = 11
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_comercio_internacional }
 		completion_reward = {
 			add_tech_bonus = {
@@ -460,7 +460,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = 12
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_inversiones_extranjeras }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -474,7 +474,7 @@ focus_tree = {
 		icon = GFX_focus_mex_privatisation
 		x = 10
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_acuerdos_comerciales focus = COL_inversiones_extranjeras }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -493,7 +493,7 @@ focus_tree = {
 		icon = GFX_focus_PER_national_bank
 		x = 8
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_acuerdos_comerciales }
 		completion_reward = {
 			add_political_power = 150
@@ -506,7 +506,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		x = 12
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_importar_carbon }
 		completion_reward = {
 			add_tech_bonus = {
@@ -523,7 +523,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		x = 10
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_economia_global }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -542,7 +542,7 @@ focus_tree = {
 		icon = GFX_focus_GER_factories_for_resources
 		x = 8
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_bancos_internacionales }
 		completion_reward = {
 			every_owned_state = {
@@ -562,7 +562,7 @@ focus_tree = {
 		icon = GFX_focus_generic_monetary_union
 		x = 9
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_zona_libre_comercio }
 		prerequisite = { focus = COL_empresas_multinacionales }
 		completion_reward = {
@@ -582,7 +582,7 @@ focus_tree = {
 		icon = GFX_focus_generic_economic_recovery
 		x = 11
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_empresas_multinacionales }
 		prerequisite = { focus = COL_tecnologia_importada }
 		completion_reward = {
@@ -687,7 +687,7 @@ focus_tree = {
 		icon = GFX_focus_NORDIC_com_army
 		x = 16
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_Las_fuerzas_armadas }
 		completion_reward = {
 			army_experience = 25
@@ -705,7 +705,7 @@ focus_tree = {
 		icon = GFX_focus_generic_military_academy
 		x = 15
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_reorganizar_ejercito }
 		completion_reward = {
 			add_tech_bonus = {
@@ -722,7 +722,7 @@ focus_tree = {
 		icon = GFX_focus_generic_army_doctrines_2
 		x = 17
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_reorganizar_ejercito }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -739,7 +739,7 @@ focus_tree = {
 		icon = GFX_focus_PER_wether_the_storm
 		x = 14
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_academias_militares }
 		completion_reward = {
 			add_tech_bonus = {
@@ -756,7 +756,7 @@ focus_tree = {
 		icon = GFX_goal_generic_special_forces
 		x = 16
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_academias_militares }
 		prerequisite = { focus = COL_doctrina_militar }
 		completion_reward = {
@@ -774,7 +774,7 @@ focus_tree = {
 		icon = GFX_focus_generic_railway_gun
 		x = 18
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_doctrina_militar }
 		completion_reward = {
 			add_tech_bonus = {
@@ -791,7 +791,7 @@ focus_tree = {
 		icon = GFX_focus_NOR_rikstanken
 		x = 16
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_fuerzas_especiales }
 		completion_reward = {
 			add_tech_bonus = {
@@ -808,7 +808,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_sphere
 		x = 16
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_blindados }
 		completion_reward = {
 			add_ideas = COL_ejercito_profesional_idea
@@ -820,7 +820,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		x = 16
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_ejercito_profesional }
 		completion_reward = {
 			add_ideas = COL_guerra_especializada_idea
@@ -832,7 +832,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_doctrines
 		x = 14
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_ejercito_profesional }
 		completion_reward = {
 			add_ideas = COL_guerra_selva_idea
@@ -844,7 +844,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery
 		x = 18
 		y = 6
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_ejercito_profesional }
 		completion_reward = {
 			add_ideas = COL_guerra_montana_idea
@@ -856,7 +856,7 @@ focus_tree = {
 		icon = GFX_focus_generic_road_investment
 		x = 16
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_guerra_especializada focus = COL_guerra_selva focus = COL_guerra_montana }
 		completion_reward = {
 			add_ideas = COL_logistica_andina_idea
@@ -934,7 +934,7 @@ focus_tree = {
 		icon = GFX_focus_NORDIC_com_navy
 		x = 22
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_Las_fuerzas_armadas }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -954,7 +954,7 @@ focus_tree = {
 		icon = GFX_focus_SMB_blue_water_fleet
 		x = 21
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_astilleros_caribe }
 		completion_reward = {
 			navy_experience = 25
@@ -972,7 +972,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_submarine
 		x = 23
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_astilleros_caribe }
 		completion_reward = {
 			add_tech_bonus = {
@@ -989,7 +989,7 @@ focus_tree = {
 		icon = GFX_focus_SWE_coastal_support
 		x = 22
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_flota_caribe }
 		prerequisite = { focus = COL_submarinos }
 		completion_reward = {
@@ -1007,7 +1007,7 @@ focus_tree = {
 		icon = GFX_focus_SWE_Vasa_II
 		x = 21
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_dominio_caribe }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -1027,7 +1027,7 @@ focus_tree = {
 		icon = GFX_focus_generic_cryptologic_bomb
 		x = 23
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_dominio_caribe }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1044,7 +1044,7 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		x = 22
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_flota_pacifico focus = COL_aviacion_naval }
 		completion_reward = {
 			add_ideas = COL_marina_competente
@@ -1208,7 +1208,7 @@ focus_tree = {
 		icon = GFX_focus_NORDIC_com_airforce
 		x = 27
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_Las_fuerzas_armadas }
 		completion_reward = {
 			air_experience = 25
@@ -1226,7 +1226,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter
 		x = 26
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_fuerza_aerea }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1243,7 +1243,7 @@ focus_tree = {
 		icon = GFX_focus_SWE_marauder_bombers
 		x = 28
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_fuerza_aerea }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1260,7 +1260,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter2
 		x = 26
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_cazas }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -1277,7 +1277,7 @@ focus_tree = {
 		icon = GFX_focus_generic_armored_air_support
 		x = 28
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_bombarderos }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1294,7 +1294,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_production
 		x = 27
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_superioridad_aerea }
 		prerequisite = { focus = COL_apoyo_aereo_cercano }
 		completion_reward = {
@@ -1313,7 +1313,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_doctrine
 		x = 27
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_bases_aereas }
 		completion_reward = {
 			add_ideas = COL_aviacion_moderna
@@ -1397,7 +1397,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_strengthening_the_concordancia
 		x = 38
 		y = 0
-		cost = 10
+		cost = 7
 		completion_reward = {
 			add_political_power = 150
 			add_stability = 0.05
@@ -1409,7 +1409,7 @@ focus_tree = {
 		icon = GFX_focus_AUS_lawmaking_leniency
 		x = 38
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_consolidar_gran_colombia }
 		completion_reward = {
 			add_ideas = COL_gobierno_fuerte
@@ -1434,7 +1434,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_develop_the_electricity_sector
 		x = 45
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_administracion_publica }
 		completion_reward = {
 			create_intelligence_agency = yes
@@ -1497,7 +1497,7 @@ focus_tree = {
 		icon = GFX_focus_GER_legacy_of_the_spartacus_league
 		x = 34
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_vanguardia_proletaria }
 		completion_reward = {
 			add_political_power = 100
@@ -1523,7 +1523,7 @@ focus_tree = {
 		icon = GFX_focus_GER_liberate_exploited_colonial_workers
 		x = 33
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_dictadura_proletariado }
 		completion_reward = {
 			add_ideas = COL_colectivizacion_idea
@@ -1535,7 +1535,7 @@ focus_tree = {
 		icon = GFX_SOV_architect_of_communism_ccp_2d_sov_compatibility
 		x = 35
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_dictadura_proletariado }
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -1566,7 +1566,7 @@ focus_tree = {
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 34
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_unirse_comintern }
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = ECU }
@@ -1595,7 +1595,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 37
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_democracia_bolivariana }
 		completion_reward = {
 			add_stability = 0.10
@@ -1608,7 +1608,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		x = 39
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_democracia_bolivariana }
 		completion_reward = {
 			add_ideas = COL_libertad_prensa_idea
@@ -1634,7 +1634,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_the_american_push
 		x = 38
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_elecciones_libres }
 		completion_reward = {
 			USA = { add_opinion_modifier = { target = ROOT modifier = COL_acercamiento } }
@@ -1659,7 +1659,7 @@ focus_tree = {
 		icon = GFX_focus_BRA_north_and_south_america
 		x = 38
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_unirse_aliados }
 		completion_reward = {
 			add_war_support = 0.10
@@ -1687,7 +1687,7 @@ focus_tree = {
 		icon = GFX_focus_GER_integrated_economies
 		x = 41
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_bolivar_eterno }
 		completion_reward = {
 			add_stability = 0.05
@@ -1700,7 +1700,7 @@ focus_tree = {
 		icon = GFX_focus_GER_our_place_in_the_sun
 		x = 43
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_bolivar_eterno }
 		completion_reward = {
 			add_popularity = { ideology = fascism popularity = 0.10 }
@@ -1727,7 +1727,7 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy2
 		x = 42
 		y = 5
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_el_caudillo }
 		completion_reward = {
 			GER = { add_opinion_modifier = { target = ROOT modifier = COL_acercamiento } }
@@ -1752,7 +1752,7 @@ focus_tree = {
 		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 		x = 42
 		y = 7
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_unirse_eje }
 		completion_reward = {
 			add_war_support = 0.15
@@ -1765,7 +1765,7 @@ focus_tree = {
 		icon = GFX_focus_generic_attack_the_guyanas
 		x = 41
 		y = 8
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_guerra_total }
 		available = {
 			has_government = fascism
@@ -1780,7 +1780,7 @@ focus_tree = {
 		icon = GFX_SOV_protect_the_white_sea_baltic_canal_ccp_2d_sov_compatibility
 		x = 43
 		y = 8
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_guerra_total }
 		available = {
 			has_government = fascism
@@ -1815,7 +1815,7 @@ focus_tree = {
 		icon = GFX_focus_SWE_refuge_from_war
 		x = 49
 		y = 0
-		cost = 10
+		cost = 7
 		available = {
 			491 = { is_core_of = ROOT }
 		}
@@ -1830,7 +1830,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 48
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_integrar_loreto }
 		completion_reward = {
 			491 = {
@@ -1848,7 +1848,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 50
 		y = 1
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_integrar_loreto }
 		completion_reward = {
 			491 = {
@@ -1863,7 +1863,7 @@ focus_tree = {
 		icon = GFX_focus_generic_steel
 		x = 48
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_infraestructura_loreto }
 		completion_reward = {
 			491 = {
@@ -1878,7 +1878,7 @@ focus_tree = {
 		icon = GFX_SOV_expand_the_aircraft_industry_ccp_2d_sov_compatibility
 		x = 50
 		y = 2
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_colonizacion_amazonica }
 		completion_reward = {
 			491 = {
@@ -1897,7 +1897,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = 48
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_minas_loreto }
 		completion_reward = {
 			491 = {
@@ -1916,7 +1916,7 @@ focus_tree = {
 		icon = GFX_focus_generic_reinforcing_the_supply_network
 		x = 50
 		y = 3
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_industria_loreto }
 		completion_reward = {
 			491 = {
@@ -1934,7 +1934,7 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		x = 49
 		y = 4
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_refineria_amazonica }
 		prerequisite = { focus = COL_base_amazonica }
 		completion_reward = {
@@ -1967,7 +1967,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_strengthening_the_concordancia
 		x = 37
 		y = 11
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_General_Divino }
 		completion_reward = {
 			swap_ideas = {
@@ -1982,7 +1982,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_strengthening_the_concordancia
 		x = 39
 		y = 11
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_General_Divino }
 		completion_reward = {
 			add_ideas = COL_Gobierno_militar_del_general_divino
@@ -1994,7 +1994,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_strengthening_the_concordancia
 		x = 38
 		y = 12
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_Forma focus = COL_La_Unica }
 		completion_reward = {
 		    swap_ideas = {
@@ -2009,7 +2009,7 @@ focus_tree = {
 		icon = GFX_focus_ARG_strengthening_the_concordancia
 		x = 38
 		y = 13
-		cost = 10
+		cost = 7
 		prerequisite = { focus = COL_De_Matar }
 		completion_reward = {
 		    swap_ideas = {
