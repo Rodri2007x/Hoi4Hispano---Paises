@@ -17,3 +17,17 @@ country_event = {
 		mark_focus_tree_layout_dirty = yes
 	}
 }
+
+	news_event = {
+		id = corona_adaptacion.2
+		title = corona_adaptacion.2.t
+		desc = corona_adaptacion.2.d
+		picture = GFX_report_event_generic_scientist
+
+		is_triggered_only = yes
+		major = yes
+
+		option = {
+			name = corona_adaptacion.2.a
+		}
+	}

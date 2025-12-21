@@ -49,6 +49,7 @@ corona_adaptacion_category = {
 				set_country_flag = COL_corona_adaptacion_focus_tree_unlocked
 				mark_focus_tree_layout_dirty = yes
 				country_event = { id = corona_adaptacion.1 }
+				news_event = { id = corona_adaptacion.2 hours = 6 random_hours = 6 }
 			}
 		}
 
