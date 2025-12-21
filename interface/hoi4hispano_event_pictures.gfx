@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hoi4hispano_mahoraga_news"
+		texturefile = "gfx/event_pictures/hoi4hispano/mahoraga_news.dds"
+	}
+}

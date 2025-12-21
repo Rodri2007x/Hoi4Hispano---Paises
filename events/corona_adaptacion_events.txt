@@ -22,7 +22,7 @@ country_event = {
 		id = corona_adaptacion.2
 		title = corona_adaptacion.2.t
 		desc = corona_adaptacion.2.d
-		picture = GFX_report_event_generic_scientist
+		picture = GFX_hoi4hispano_mahoraga_news
 
 		is_triggered_only = yes
 		major = yes
