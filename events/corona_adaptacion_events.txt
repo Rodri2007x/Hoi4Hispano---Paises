@@ -27,6 +27,10 @@ country_event = {
 		is_triggered_only = yes
 		major = yes
 
+		immediate = {
+			scoped_sound_effect = "hoi4hispano_mahoraga_sfx"
+		}
+
 		option = {
 			name = corona_adaptacion.2.a
 		}

@@ -1,0 +1,16 @@
+sound = {
+	name = "hoi4hispano_mahoraga"
+	file = "hoi4hispano/mahoraga.wav"
+	always_load = yes
+	volume = 0.5
+}
+
+soundeffect = {
+	name = "hoi4hispano_mahoraga_sfx"
+	sounds = {
+		sound = "hoi4hispano_mahoraga"
+	}
+	loop = no
+	is3d = no
+	volume = 1.0
+}
