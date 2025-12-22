@@ -2005,8 +2005,7 @@ focus_tree = {
 		x = 49
 		y = 4
 		cost = 7
-		prerequisite = { focus = COL_refineria_amazonica }
-		prerequisite = { focus = COL_base_amazonica }
+		prerequisite = { focus = COL_refineria_amazonica focus = COL_base_amazonica }
 		completion_reward = {
 			491 = {
 				add_building_construction = {

@@ -110,6 +110,7 @@ country_event = {
 			transfer_state = 491
 			491 = {
 				set_state_name = "Loreto"
+				set_demilitarized_zone = yes
 				add_dynamic_modifier = {
 					modifier = hoi4hispano_resistencia_peruana
 				}
