@@ -162,19 +162,19 @@ set_technology = {
  division_template = {
 	name = "Brigada de contencion"
 	regiments = {
-		cavalry{
+		cavalry = {
 			x = 0
 			y = 0
 		}
-		cavalry{
+		cavalry = {
 			x = 0
 			y = 1
 		}
-		cavalry{
+		cavalry = {
 			x = 1
 			y = 0
 		}
-		cavalry{
+		cavalry = {
 			x = 1
 			y = 1
 		}
