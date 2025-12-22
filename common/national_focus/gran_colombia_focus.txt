@@ -2021,7 +2021,7 @@ focus_tree = {
 
 	focus = {
 		id = COL_General_Divino
-		icon = GFX_focus_ARG_strengthening_the_concordancia
+		icon = GFX_hoi4hispano_col_general_divino_focus
 		x = 38
 		y = 10
 		cost = 5
@@ -2033,7 +2033,7 @@ focus_tree = {
 
 	focus = {
 		id = COL_La_Unica
-		icon = GFX_focus_ARG_strengthening_the_concordancia
+		icon = GFX_hoi4hispano_col_la_unica_focus
 		x = 37
 		y = 11
 		cost = 7

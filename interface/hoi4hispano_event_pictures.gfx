@@ -3,4 +3,12 @@ spriteTypes = {
 		name = "GFX_hoi4hispano_mahoraga_news"
 		texturefile = "gfx/event_pictures/hoi4hispano/mahoraga_news.dds"
 	}
+	spriteType = {
+		name = "GFX_hoi4hispano_col_general_divino_focus"
+		texturefile = "gfx/interface/goals/hoi4hispano/col_general_divino_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4hispano_col_la_unica_focus"
+		texturefile = "gfx/interface/goals/hoi4hispano/col_la_unica_focus.dds"
+	}
 }
