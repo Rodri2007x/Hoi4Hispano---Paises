@@ -13,6 +13,28 @@
  integracion_territorios_category:0 "Integración Territorial"
  integracion_territorios_category_desc:0 "Decisiones para integrar territorios bajo nuestro control."
 
+ hoi4hispano_col_pru_border_war_category:0 "Guerra Fronteriza"
+ hoi4hispano_col_pru_border_war_category_desc:0 "Incidentes armados en la frontera con Perú."
+
+ COL_iniciar_guerra_fronteriza_pru:0 "Iniciar guerra fronteriza con Perú"
+ COL_iniciar_guerra_fronteriza_pru_desc:0 "Organizar un choque fronterizo limitado."
+
+ hoi4hispano_border_war_won_attacker.1.t:0 "Victoria en la frontera"
+ hoi4hispano_border_war_won_attacker.1.d:0 "Nuestras fuerzas han prevalecido en el choque fronterizo."
+ hoi4hispano_border_war_won_attacker.1.a:0 "Continuar"
+
+ hoi4hispano_border_war_lost_attacker.1.t:0 "Derrota en la frontera"
+ hoi4hispano_border_war_lost_attacker.1.d:0 "El choque fronterizo terminó en un revés para nuestras fuerzas."
+ hoi4hispano_border_war_lost_attacker.1.a:0 "Continuar"
+
+ hoi4hispano_border_war_won_defender.1.t:0 "Victoria en la frontera"
+ hoi4hispano_border_war_won_defender.1.d:0 "Hemos repelido el intento enemigo en el choque fronterizo."
+ hoi4hispano_border_war_won_defender.1.a:0 "Continuar"
+
+ hoi4hispano_border_war_lost_defender.1.t:0 "Derrota en la frontera"
+ hoi4hispano_border_war_lost_defender.1.d:0 "No hemos logrado contener al enemigo en el choque fronterizo."
+ hoi4hispano_border_war_lost_defender.1.a:0 "Continuar"
+
  corona_adaptacion_category:0 "La corona de la adaptacion"
  corona_adaptacion_category_desc:0 "Despues de la reunificacion de la gran colombia el lider busco una forma de la adquision del poder de la adaptacion la unica forma de hacerlo era reunir las piezas perdidas de la corona de la adaptacion para crear la invocacion perfecta"
 

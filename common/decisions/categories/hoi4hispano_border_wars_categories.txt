@@ -1,0 +1,12 @@
+hoi4hispano_col_pru_border_war_category = {
+	icon = border_war
+	priority = 50
+
+	visible = {
+		original_tag = COL
+		PRU = { exists = yes }
+		NOT = { has_war_with = PRU }
+		305 = { is_owned_and_controlled_by = ROOT }
+		303 = { is_owned_and_controlled_by = PRU }
+	}
+}

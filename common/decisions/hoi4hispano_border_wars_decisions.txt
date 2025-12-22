@@ -1,0 +1,69 @@
+hoi4hispano_col_pru_border_war_category = {
+
+	COL_iniciar_guerra_fronteriza_pru = {
+		icon = border_war
+
+		visible = {
+			original_tag = COL
+			PRU = { exists = yes }
+			NOT = { has_war_with = PRU }
+			NOT = { has_border_war_with = PRU }
+			305 = { is_owned_and_controlled_by = ROOT }
+			303 = { is_owned_and_controlled_by = PRU }
+		}
+
+		available = {
+			305 = {
+				is_fully_controlled_by = ROOT
+				has_ROOT_at_least_1_div_in_current_state_scope = yes
+				any_neighbor_state = {
+					state = 303
+					is_fully_controlled_by = PRU
+				}
+			}
+			303 = {
+				is_fully_controlled_by = PRU
+			}
+		}
+
+		cost = 0
+		fire_only_once = no
+		days_remove = 1
+		days_re_enable = 60
+
+		highlight_states = {
+			highlight_states_trigger = {
+				OR = {
+					state = 305
+					state = 303
+				}
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 305
+						num_provinces = 1
+						on_win = hoi4hispano_border_war_won_attacker.1
+						on_lose = hoi4hispano_border_war_lost_attacker.1
+						on_cancel = hoi4hispano_border_war_canceled_attacker.1
+					}
+					defender = {
+						state = 303
+						num_provinces = 1
+						on_win = hoi4hispano_border_war_won_defender.1
+						on_lose = hoi4hispano_border_war_lost_defender.1
+						on_cancel = hoi4hispano_border_war_canceled_defender.1
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

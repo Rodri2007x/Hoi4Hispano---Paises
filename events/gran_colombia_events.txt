@@ -385,3 +385,99 @@ country_event = {
 		create_wargoal = { type = annex_everything target = PRU }
 	}
 }
+
+add_namespace = hoi4hispano_border_war_won_attacker
+
+country_event = {
+	id = hoi4hispano_border_war_won_attacker.1
+	title = hoi4hispano_border_war_won_attacker.1.t
+	desc = hoi4hispano_border_war_won_attacker.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = hoi4hispano_border_war_won_attacker.1.a
+		army_experience = 30
+		add_political_power = 15
+	}
+}
+
+add_namespace = hoi4hispano_border_war_lost_attacker
+
+country_event = {
+	id = hoi4hispano_border_war_lost_attacker.1
+	title = hoi4hispano_border_war_lost_attacker.1.t
+	desc = hoi4hispano_border_war_lost_attacker.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = hoi4hispano_border_war_lost_attacker.1.a
+		add_war_support = -0.02
+		add_stability = -0.01
+	}
+}
+
+add_namespace = hoi4hispano_border_war_won_defender
+
+country_event = {
+	id = hoi4hispano_border_war_won_defender.1
+	title = hoi4hispano_border_war_won_defender.1.t
+	desc = hoi4hispano_border_war_won_defender.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = hoi4hispano_border_war_won_defender.1.a
+		army_experience = 30
+		add_political_power = 15
+	}
+}
+
+add_namespace = hoi4hispano_border_war_lost_defender
+
+country_event = {
+	id = hoi4hispano_border_war_lost_defender.1
+	title = hoi4hispano_border_war_lost_defender.1.t
+	desc = hoi4hispano_border_war_lost_defender.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = hoi4hispano_border_war_lost_defender.1.a
+		add_war_support = -0.02
+		add_stability = -0.01
+	}
+}
+
+add_namespace = hoi4hispano_border_war_canceled_attacker
+
+country_event = {
+	id = hoi4hispano_border_war_canceled_attacker.1
+	title = gran_colombia.1.t
+	desc = gran_colombia.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = { name = gran_colombia.1.a }
+}
+
+add_namespace = hoi4hispano_border_war_canceled_defender
+
+country_event = {
+	id = hoi4hispano_border_war_canceled_defender.1
+	title = gran_colombia.1.t
+	desc = gran_colombia.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = { name = gran_colombia.1.a }
+}
