@@ -2,7 +2,7 @@ capital = 306
 
 set_research_slots = 3
 
-set_convoys = 15
+set_convoys = 67
 
 recruit_character = COL_chief_of_army
 recruit_character = COL_chief_of_navy
@@ -148,6 +148,42 @@ set_technology = {
 		}
 		infantry = {
 			x = 2
+			y = 2
+		}
+	 }
+	 support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+	 }
+ }
+
+ division_template = {
+	name = "Division de infanteria"
+	regiments = {
+		mountaineers = {
+			x = 0
+			y = 0
+		}
+		mountaineers = {
+			x = 0
+			y = 1
+		}
+		mountaineers = {
+			x = 0
+			y = 2
+		}
+		mountaineers = {
+			x = 1
+			y = 0
+		}
+		mountaineers = {
+			x = 1
+			y = 1
+		}
+		mountaineers = {
+			x = 1
 			y = 2
 		}
 	 }
