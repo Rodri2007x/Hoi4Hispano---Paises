@@ -1,5 +1,9 @@
 ﻿l_english:
 
+ gran_colombia_focus:0 "Gran Colombia"
+
+ COL_criptografia_militar_2:0 "Criptografía Militar II"
+
  COL_trait_air_chief_air_superiority:0 "Air Doctrine Reformer"
  COL_trait_air_chief_air_superiority_desc:0 "Focuses the air force on winning the skies through improved tactics and training."
  COL_trait_high_command_armor:0 "Armored Warfare Advocate"
@@ -806,4 +810,4 @@
  hoi4hispano_plan_quinquenal_add_building_slot:0 "Ampliar capacidad industrial"
  hoi4hispano_plan_quinquenal_add_building_slot_desc:0 "Invertir poder político para habilitar un nuevo espacio de construcción."
 
- COL_plan_quinquenal_unlock_decisions_tt:0 "Al completar este foco, desbloquearás decisiones que te permiten añadir 1 espacio de construcción cada 45 días por 75 de poder político."
+ COL_plan_quinquenal_unlock_decisions_tt:0 "Al completar este foco, desbloquearás decisiones que te permiten añadir §Y1 espacio de construcción cada 45 días por 75 de poder político.§!"

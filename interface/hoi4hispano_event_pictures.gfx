@@ -4,6 +4,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/hoi4hispano/mahoraga_news.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_generic_scientist"
+		texturefile = "gfx/event_pictures/hoi4hispano/mahoraga_news.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_diplomatic_message"
+		texturefile = "gfx/event_pictures/hoi4hispano/mahoraga_news.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_sign_treaty1"
+		texturefile = "gfx/event_pictures/hoi4hispano/mahoraga_news.dds"
+	}
+	spriteType = {
 		name = "GFX_hoi4hispano_col_general_divino_focus"
 		texturefile = "gfx/interface/goals/hoi4hispano/col_general_divino_focus.dds"
 	}

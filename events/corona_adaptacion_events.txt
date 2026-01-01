@@ -4,7 +4,7 @@ country_event = {
 	id = corona_adaptacion.1
 	title = corona_adaptacion.1.t
 	desc = corona_adaptacion.1.d
-	picture = GFX_report_event_generic_scientist
+		picture = "GFX_report_event_generic_scientist"
 
 	is_triggered_only = yes
 
@@ -22,7 +22,7 @@ country_event = {
 		id = corona_adaptacion.2
 		title = corona_adaptacion.2.t
 		desc = corona_adaptacion.2.d
-		picture = GFX_hoi4hispano_mahoraga_news
+		picture = "GFX_hoi4hispano_mahoraga_news"
 
 		is_triggered_only = yes
 		major = yes

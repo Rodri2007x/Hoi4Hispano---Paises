@@ -193,7 +193,7 @@ country_event = {
 	id = gran_colombia.101
 	title = gran_colombia.101.t
 	desc = gran_colombia.101.d
-	picture = GFX_report_event_generic_sign_treaty1
+	picture = "GFX_report_event_generic_sign_treaty1"
 
 	is_triggered_only = yes
 
@@ -209,7 +209,7 @@ country_event = {
 	id = gran_colombia.200
 	title = gran_colombia.200.t
 	desc = gran_colombia.200.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -230,7 +230,7 @@ country_event = {
 	id = gran_colombia.201
 	title = gran_colombia.201.t
 	desc = gran_colombia.201.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -251,7 +251,7 @@ country_event = {
 	id = gran_colombia.203
 	title = gran_colombia.203.t
 	desc = gran_colombia.203.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -265,7 +265,7 @@ country_event = {
 	id = gran_colombia.204
 	title = gran_colombia.204.t
 	desc = gran_colombia.204.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -279,7 +279,7 @@ country_event = {
 	id = gran_colombia.202
 	title = gran_colombia.202.t
 	desc = gran_colombia.202.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -303,7 +303,7 @@ country_event = {
 	id = gran_colombia.205
 	title = gran_colombia.205.t
 	desc = gran_colombia.205.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -317,7 +317,7 @@ country_event = {
 	id = gran_colombia.206
 	title = gran_colombia.206.t
 	desc = gran_colombia.206.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -341,7 +341,7 @@ country_event = {
 	id = gran_colombia.207
 	title = gran_colombia.207.t
 	desc = gran_colombia.207.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -355,7 +355,7 @@ country_event = {
 	id = gran_colombia.208
 	title = gran_colombia.208.t
 	desc = gran_colombia.208.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -376,7 +376,7 @@ country_event = {
 	id = gran_colombia.209
 	title = gran_colombia.209.t
 	desc = gran_colombia.209.d
-	picture = GFX_report_event_generic_diplomatic_message
+	picture = "GFX_report_event_generic_diplomatic_message"
 
 	is_triggered_only = yes
 
@@ -392,7 +392,7 @@ country_event = {
 	id = hoi4hispano_border_war_won_attacker.1
 	title = hoi4hispano_border_war_won_attacker.1.t
 	desc = hoi4hispano_border_war_won_attacker.1.d
-	picture = GFX_report_event_generic_sign_treaty1
+	picture = "GFX_report_event_generic_sign_treaty1"
 
 	is_triggered_only = yes
 
