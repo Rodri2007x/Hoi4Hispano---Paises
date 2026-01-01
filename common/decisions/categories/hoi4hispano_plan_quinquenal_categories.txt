@@ -1,0 +1,10 @@
+hoi4hispano_plan_quinquenal_category = {
+	icon = generic_construction
+
+	priority = 50
+
+	visible = {
+		original_tag = COL
+		has_country_flag = hoi4hispano_plan_quinquenal_decisions_unlocked
+	}
+}

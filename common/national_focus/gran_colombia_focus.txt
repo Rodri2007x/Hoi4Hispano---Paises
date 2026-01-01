@@ -10,9 +10,6 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 1500 y = 2000 }
 
-	# ==========================================
-	# RAMA INDUSTRIAL (x = 0 - 8)
-	# ==========================================
 
 	focus = {
 		id = COL_industria_nacional
@@ -61,21 +58,13 @@ focus_tree = {
 		prerequisite = { focus = COL_industria_nacional }
 		completion_reward = {
 			build_railway = {
-             level = 2
-             build_only_on_allied = yes
-             fallback = yes
-             start_province = 10747
-             path = { 2079 10846 }
-             target_province = 12798
-            }
-			build_railway = {
-             level = 2
-             build_only_on_allied = yes
-             fallback = yes
-             start_province = 10747
-             path = { 7993 5000 4942 }
-             target_province = 8113
-            }
+				level = 2
+				build_only_on_allied = yes
+				fallback = yes
+				start_province = 10846
+				path = { 10846 2079 10747 7993 2052 1997 10855 8113 }
+				target_province = 8113
+			}
 			every_owned_state = {
 				add_building_construction = {
 					type = infrastructure
@@ -163,7 +152,6 @@ focus_tree = {
 		}
 	}
 
-	# --- RAMA AUTARQUIA (izquierda, x = 0-4) ---
 
 	focus = {
 		id = COL_refinamiento_petroleo
@@ -321,6 +309,8 @@ focus_tree = {
 		prerequisite = { focus = COL_produccion_combustible }
 		prerequisite = { focus = COL_electrificacion_estatal }
 		completion_reward = {
+			custom_effect_tooltip = COL_plan_quinquenal_unlock_decisions_tt
+			set_country_flag = hoi4hispano_plan_quinquenal_decisions_unlocked
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -346,7 +336,6 @@ focus_tree = {
 		}
 	}
 
-	# --- FOCOS OPCIONALES AUTARQUIA (mejora industria) ---
 
 	focus = {
 		id = COL_reforma_industrial
@@ -354,7 +343,8 @@ focus_tree = {
 		x = 3
 		y = 8
 		cost = 5
-		prerequisite = { focus = COL_plan_quinquenal focus = COL_autosuficiencia_total }
+		prerequisite = { focus = COL_plan_quinquenal }
+		prerequisite = { focus = COL_autosuficiencia_total }
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = COL_industria_subdesarrollada
@@ -420,7 +410,6 @@ focus_tree = {
 		}
 	}
 
-	# --- RAMA COMERCIO (derecha, x = 8-14) ---
 
 	focus = {
 		id = COL_acuerdos_comerciales
@@ -475,7 +464,8 @@ focus_tree = {
 		x = 10
 		y = 5
 		cost = 7
-		prerequisite = { focus = COL_acuerdos_comerciales focus = COL_inversiones_extranjeras }
+		prerequisite = { focus = COL_acuerdos_comerciales }
+		prerequisite = { focus = COL_inversiones_extranjeras }
 		completion_reward = {
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 3
@@ -591,7 +581,6 @@ focus_tree = {
 		}
 	}
 
-	# --- FOCOS OPCIONALES COMERCIO (mejora industria) ---
 
 	focus = {
 		id = COL_asesores_extranjeros
@@ -599,7 +588,8 @@ focus_tree = {
 		x = 10
 		y = 8
 		cost = 5
-		prerequisite = { focus = COL_hub_comercial_americas focus = COL_prosperidad_comercial }
+		prerequisite = { focus = COL_hub_comercial_americas }
+		prerequisite = { focus = COL_prosperidad_comercial }
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = COL_industria_subdesarrollada
@@ -665,9 +655,6 @@ focus_tree = {
 		}
 	}
 
-	# ==========================================
-	# RAMA MILITAR - EJERCITO (x = 18 - 22)
-	# ==========================================
     
 	focus = {
 		id = COL_Las_fuerzas_armadas
@@ -857,13 +844,14 @@ focus_tree = {
 		x = 16
 		y = 7
 		cost = 7
-		prerequisite = { focus = COL_guerra_especializada focus = COL_guerra_selva focus = COL_guerra_montana }
+		prerequisite = { focus = COL_guerra_especializada }
+		prerequisite = { focus = COL_guerra_selva }
+		prerequisite = { focus = COL_guerra_montana }
 		completion_reward = {
 			add_ideas = COL_logistica_andina_idea
 		}
 	}
 
-	# --- FOCOS OPCIONALES EJERCITO (mejora militar) ---
 
 	focus = {
 		id = COL_reorganizar_mandos
@@ -925,9 +913,6 @@ focus_tree = {
 		}
 	}
 
-	# ==========================================
-	# RAMA MILITAR - MARINA (x = 26 - 30)
-	# ==========================================
 
 	focus = {
 		id = COL_astilleros_caribe
@@ -1045,7 +1030,8 @@ focus_tree = {
 		x = 22
 		y = 5
 		cost = 7
-		prerequisite = { focus = COL_flota_pacifico focus = COL_aviacion_naval }
+		prerequisite = { focus = COL_flota_pacifico }
+		prerequisite = { focus = COL_aviacion_naval }
 		completion_reward = {
 			add_ideas = COL_marina_competente
 			every_owned_state = {
@@ -1137,7 +1123,6 @@ focus_tree = {
 		}
 	}
 
-	# --- FOCOS OPCIONALES MARINA (mejora naval) ---
 
 	focus = {
 		id = COL_escuela_naval
@@ -1199,9 +1184,6 @@ focus_tree = {
 		}
 	}
 
-	# ==========================================
-	# RAMA MILITAR - FUERZA AEREA (x = 40 - 44)
-	# ==========================================
 
 	focus = {
 		id = COL_fuerza_aerea
@@ -1326,7 +1308,6 @@ focus_tree = {
 		}
 	}
 
-	# --- FOCOS OPCIONALES FUERZA AEREA (mejora aviacion) ---
 
 	focus = {
 		id = COL_pilotos_novatos
@@ -1388,9 +1369,6 @@ focus_tree = {
 		}
 	}
 
-	# ==========================================
-	# RAMA POLITICA (x = 50 - 62)
-	# ==========================================
 
 	focus = {
 		id = COL_consolidar_gran_colombia
@@ -1477,7 +1455,6 @@ focus_tree = {
 		}
 	}
 
-	# --- COMUNISMO (x = 51) ---
 
 	focus = {
 		id = COL_vanguardia_proletaria
@@ -1555,7 +1532,8 @@ focus_tree = {
 		x = 34
 		y = 6
 		cost = 5
-		prerequisite = { focus = COL_colectivizacion_agraria focus = COL_industrializacion_forzada }
+		prerequisite = { focus = COL_colectivizacion_agraria }
+		prerequisite = { focus = COL_industrializacion_forzada }
 		completion_reward = {
 			SOV = { add_to_faction = ROOT }
 		}
@@ -1575,7 +1553,6 @@ focus_tree = {
 		}
 	}
 
-	# --- DEMOCRACIA (x = 56) ---
 
 	focus = {
 		id = COL_democracia_bolivariana
@@ -1667,7 +1644,6 @@ focus_tree = {
 		}
 	}
 
-	# --- FASCISMO (x = 61) ---
 
 	focus = {
 		id = COL_bolivar_eterno
@@ -1876,9 +1852,6 @@ focus_tree = {
 		}
 	}
 
-	# ==========================================
-	# RAMA LORETO (x = 68 - 72)
-	# ==========================================
 
 	focus = {
 		id = COL_integrar_loreto
@@ -2005,7 +1978,8 @@ focus_tree = {
 		x = 49
 		y = 4
 		cost = 7
-		prerequisite = { focus = COL_refineria_amazonica focus = COL_base_amazonica }
+		prerequisite = { focus = COL_refineria_amazonica }
+		prerequisite = { focus = COL_base_amazonica }
 		completion_reward = {
 			491 = {
 				add_building_construction = {
@@ -2064,7 +2038,8 @@ focus_tree = {
 		x = 38
 		y = 12
 		cost = 7
-		prerequisite = { focus = COL_Forma focus = COL_La_Unica }
+		prerequisite = { focus = COL_Forma }
+		prerequisite = { focus = COL_La_Unica }
 		completion_reward = {
 		    swap_ideas = {
 				remove_idea = COL_Gobierno_reformado_por_el_general

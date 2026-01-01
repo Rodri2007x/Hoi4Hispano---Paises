@@ -111,9 +111,6 @@
  corona_adaptacion.2.a:0 "Increíble"
 
 
- # ==========================================
- # PAIS
- # ==========================================
 
  COL:0 "Gran Colombia"
  COL_DEF:0 "Gran Colombia"
@@ -127,9 +124,6 @@
  COL_neutrality:0 "Gran Colombia"
  COL_neutrality_DEF:0 "Gran Colombia"
 
- # ==========================================
- # FOCOS - INDUSTRIA
- # ==========================================
 
  COL_industria_nacional:0 "Industria Nacional"
  COL_industria_nacional_desc:0 "Debemos desarrollar una base industrial sólida para nuestra nación."
@@ -231,7 +225,6 @@
  COL_prosperidad_comercial:0 "Prosperidad Comercial"
  COL_prosperidad_comercial_desc:0 "El comercio trae riqueza a nuestra nación."
 
- # --- FOCOS OPCIONALES AUTARQUIA ---
  
  COL_reforma_industrial:0 "Reforma Industrial"
  COL_reforma_industrial_desc:0 "Comenzar la modernización de nuestra industria atrasada."
@@ -248,7 +241,6 @@
  COL_eficiencia_estatal:0 "Eficiencia Estatal"
  COL_eficiencia_estatal_desc:0 "Optimizar la gestión pública para elevar el rendimiento general."
 
- # --- FOCOS OPCIONALES COMERCIO ---
  
  COL_asesores_extranjeros:0 "Asesores Extranjeros"
  COL_asesores_extranjeros_desc:0 "Contratar expertos internacionales para modernizar nuestra industria."
@@ -265,7 +257,6 @@
  COL_gestion_financiera:0 "Gestión Financiera"
  COL_gestion_financiera_desc:0 "Profesionalizar la administración económica para sostener el crecimiento y la innovación."
 
- # --- IDEAS INDUSTRIA ---
  
  COL_industria_subdesarrollada:0 "Industria Subdesarrollada"
  COL_industria_subdesarrollada_desc:0 "Nuestra industria está atrasada y necesita modernización urgente."
@@ -291,9 +282,6 @@
  COL_administracion_publica_idea:0 "Administración Pública"
  COL_administracion_publica_idea_desc:0 "Instituciones reforzadas para garantizar estabilidad y gobernabilidad."
 
- # ==========================================
- # FOCOS - EJERCITO
- # ==========================================
 
  COL_Las_fuerzas_armadas:0 "Las Fuerzas Armadas"
  COL_Las_fuerzas_armadas_desc:0 "Reorganizar y modernizar el ejército, la armada y la aviación."
@@ -334,7 +322,6 @@
  COL_logistica_andina:0 "Logística Andina"
  COL_logistica_andina_desc:0 "Suministrar tropas en terreno difícil."
 
- # --- FOCOS OPCIONALES EJERCITO ---
 
  COL_reorganizar_mandos:0 "Reorganizar Mandos"
  COL_reorganizar_mandos_desc:0 "Optimizar la cadena de mando y la coordinación del ejército."
@@ -348,9 +335,6 @@
  COL_ejercito_bolivariano:0 "Ejército Bolivariano"
  COL_ejercito_bolivariano_desc:0 "Forjar un ejército de élite digno de la Gran Colombia."
 
- # ==========================================
- # FOCOS - MARINA
- # ==========================================
 
  COL_astilleros_caribe:0 "Astilleros del Caribe"
  COL_astilleros_caribe_desc:0 "Construir una flota para dominar el Caribe."
@@ -391,7 +375,6 @@
  COL_logistica_conjunta:0 "Logística Conjunta"
  COL_logistica_conjunta_desc:0 "Mejorar suministros y coordinación para mantener el esfuerzo bélico en cualquier frente."
 
- # --- FOCOS OPCIONALES MARINA ---
 
  COL_escuela_naval:0 "Escuela Naval"
  COL_escuela_naval_desc:0 "Profesionalizar nuestra armada con formación moderna."
@@ -405,9 +388,6 @@
  COL_armada_grancolombiana:0 "Armada Grancolombiana"
  COL_armada_grancolombiana_desc:0 "Consolidar una armada respetada en el Caribe y el Pacífico."
 
- # ==========================================
- # FOCOS - FUERZA AEREA
- # ==========================================
 
  COL_fuerza_aerea:0 "Fuerza Aérea"
  COL_fuerza_aerea_desc:0 "Crear una fuerza aérea moderna."
@@ -430,7 +410,6 @@
  COL_doctrina_aerea:0 "Doctrina Aérea"
  COL_doctrina_aerea_desc:0 "Perfeccionar nuestra estrategia de guerra aérea."
 
- # --- FOCOS OPCIONALES FUERZA AEREA ---
 
  COL_pilotos_novatos:0 "Pilotos Novatos"
  COL_pilotos_novatos_desc:0 "Aumentar el número de pilotos disponibles y mejorar su formación inicial."
@@ -444,9 +423,6 @@
  COL_condores_andes:0 "Cóndores de los Andes"
  COL_condores_andes_desc:0 "Convertir nuestra fuerza aérea en un referente regional."
 
- # ==========================================
- # FOCOS - POLITICA
- # ==========================================
 
  COL_consolidar_gran_colombia:0 "Consolidar Gran Colombia"
  COL_consolidar_gran_colombia_desc:0 "Unificar los territorios bajo un gobierno central fuerte."
@@ -469,7 +445,6 @@
  COL_inteligencia_nacional_idea:0 "Inteligencia Nacional"
  COL_inteligencia_nacional_idea_desc:0 "Estructuras y protocolos para mejorar cifrado y descifrado."
 
- # --- COMUNISMO ---
  
  COL_vanguardia_proletaria:0 "Vanguardia Proletaria"
  COL_vanguardia_proletaria_desc:0 "El proletariado debe liderar la revolución."
@@ -492,7 +467,6 @@
  COL_revolucion_continental:0 "Revolución Continental"
  COL_revolucion_continental_desc:0 "Exportar la revolución a toda América."
 
- # --- DEMOCRACIA ---
  
  COL_democracia_bolivariana:0 "Democracia Bolivariana"
  COL_democracia_bolivariana_desc:0 "Seguir el legado de libertad de Bolívar."
@@ -515,7 +489,6 @@
  COL_defensa_hemisferica:0 "Defensa Hemisférica"
  COL_defensa_hemisferica_desc:0 "Proteger el hemisferio occidental del fascismo."
 
- # --- FASCISMO ---
  
  COL_bolivar_eterno:0 "Bolívar Eterno"
  COL_bolivar_eterno_desc:0 "Revivir el espíritu autoritario del Libertador."
@@ -556,9 +529,6 @@
  COL_repartir_fascismo_sudamerica:0 "Repartir el fascismo en Sudamérica"
  COL_repartir_fascismo_sudamerica_desc:0 "La región debe alinearse con nuestra visión. Prepararemos la expansión contra las potencias rivales del continente."
 
- # ==========================================
- # FOCOS - LORETO
- # ==========================================
 
  COL_integrar_loreto:0 "Integrar Loreto"
  COL_integrar_loreto_desc:0 "Loreto debe ser parte integral de Gran Colombia."
@@ -632,9 +602,6 @@
  gran_colombia.209.d:0 "El gobierno peruano ha rechazado nuestro ultimátum. Si queremos someterlos, tendremos que hacerlo por la fuerza."
  gran_colombia.209.a:0 "Entonces habrá guerra"
 
- # ==========================================
- # IDEAS
- # ==========================================
 
  COL_ejercito_profesional_idea:0 "Ejército Profesional"
  COL_ejercito_profesional_idea_desc:0 "Nuestro ejército está formado por soldados profesionales bien entrenados."
@@ -804,15 +771,9 @@
  COL_gobierno_fuerte:0 "Gobierno Fuerte"
  COL_gobierno_fuerte_desc:0 "Instituciones estables y una administración eficaz refuerzan a la nación."
 
- # ==========================================
- # MODIFIERS
- # ==========================================
 
  COL_acercamiento:0 "Acercamiento Diplomático"
 
- # ==========================================
- # DECISIONES LORETO
- # ==========================================
 
  category_COL_loreto:0 "Integración de Loreto"
  
@@ -825,9 +786,6 @@
  COL_inversion_loreto:0 "Inversión en Loreto"
  COL_inversion_loreto_desc:0 "Desarrollar la economía local para ganar apoyo."
 
- # ==========================================
- # EVENTOS LORETO
- # ==========================================
 
  col_loreto.1.t:0 "Resistencia en Loreto"
  col_loreto.1.d:0 "La población de Loreto no acepta la anexión. Grupos de resistencia se han formado en la selva."
@@ -841,3 +799,11 @@
  col_loreto.3.t:0 "Desarrollo en Loreto"
  col_loreto.3.d:0 "Las inversiones en infraestructura están dando frutos. La población local comienza a aceptar el gobierno de Gran Colombia."
  col_loreto.3.a:0 "El progreso llega a la Amazonía"
+
+ hoi4hispano_plan_quinquenal_category:0 "Plan Quinquenal"
+ hoi4hispano_plan_quinquenal_category_desc:0 "Decisiones industriales desbloqueadas tras completar el Plan Quinquenal."
+
+ hoi4hispano_plan_quinquenal_add_building_slot:0 "Ampliar capacidad industrial"
+ hoi4hispano_plan_quinquenal_add_building_slot_desc:0 "Invertir poder político para habilitar un nuevo espacio de construcción."
+
+ COL_plan_quinquenal_unlock_decisions_tt:0 "Al completar este foco, desbloquearás decisiones que te permiten añadir 1 espacio de construcción cada 45 días por 75 de poder político."

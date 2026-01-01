@@ -1,0 +1,25 @@
+hoi4hispano_plan_quinquenal_category = {
+
+	hoi4hispano_plan_quinquenal_add_building_slot = {
+		icon = generic_construction
+
+		visible = {
+			original_tag = COL
+			has_country_flag = hoi4hispano_plan_quinquenal_decisions_unlocked
+		}
+
+		fire_only_once = no
+		days_re_enable = 45
+		cost = 75
+
+		complete_effect = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
